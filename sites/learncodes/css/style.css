@@ -1,32 +1,116 @@
-
-/*Extra CSS*/
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'PT Sans', sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.typography p,
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6{
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, .heading, .title, .main_heading {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.site_logo.with_image a img {
+    max-width: unset;
+    height: 53px;
+    margin: 3px 0;
+}
+
+header .full-menu .navbar.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    padding: 10px 15px !important;
     font-size: 14px;
 }
 
-h1, h2, h3, h4, h5, h6 .heading, .title, .main_heading {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 600;
-    color: #1ea69a;
+.hamburger {
+    left: 16px;
+    top: 24px;
+ }
+
+
+.ourtutorials .card-title,
+.text-black,
+.heading_style {
+    color: #290001;
+}
+
+.text_secondary,
+.text-secondary {
+    color: #009EFA !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary,
+.bg_secondary,
+.bg-secondary {
+    background-color:  #009EFA;
+}
+
+.bg_secondary,
+.bg-secondary {
+    background-color:  #009EFA !important;
+}
+
+.border-secondary,
+.btn-secondary:hover,
+.btn-secondary {
+    border-color:  #009EFA !important; 
 }
 
 .link,
 .gotoparrow,
 .text-primary,
+.btn-outline-primary,
+.ourtutorials .card .ciconrc,
 .text_primary {
-    color: #1ea69a !important;
+    color: #FA6C39 !important;
 }
 
+.socialicons.bg_dark, .socialicons.bg-dark,
 .btn-primary,
+.badge-primary,
 .bg_primary,
 .bg-primary {
-    background-color: #1ea69a !important;
+    background-color: #FA6C39 !important;
 }
 
+.border-primary,
 .btn-primary,
+.ourtutorials .card .ciconrc,
 .heading_style.type2:before {
-    border-color:  #1ea69a !important;
+    border-color:  #FA6C39 !important;
+}
+
+.ourtutorials .card .ciconrc {
+    width: 70px;
+    height: 70px;
+}
+
+.ourtutorials .card:hover {
+    box-shadow: 0 0 5px 5px rgba(200, 121, 65, 0.2) !important;
+    border-radius: 10px !important;
+}
+
+.ourtutorials .card:hover .ciconrc {
+    border-radius:100%;
+}
+
+.btn-outline-primary {
+    background-color: #ffffff !important;
+    border-color:  #ffffff !important;
+}
+ 
+.hamburger div {
+    background-color:#fff;
 }
 
 .line_right {
@@ -56,8 +140,12 @@ img.blur {
 header .navbar.navbar-expand-lg .navbar-nav .nav-item a.nav-link.btn {
     padding: 11px 0 !important;
     color: #fff !important;
-    margin: 18px 0 18px 8px !important;
+    margin: 14px 0 14px 8px !important;
     text-transform: uppercase;
+}
+
+header .navbar.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    margin: 7px 0 !important;
 }
 
 .rememberme input{
@@ -65,13 +153,50 @@ header .navbar.navbar-expand-lg .navbar-nav .nav-item a.nav-link.btn {
 }
 
 /* Banner section */
-.banner_section, .banner-section {
-    margin-top: 131px;
+.banner-heading span{
+    font-weight: 700;
+}
+
+.banner-heading .text_green {
+    color: #14ff49 !important;
+}
+
+.card-contact-details {
+   border-left: 1px solid rgba(255,255, 255,0.1);
+}
+
+.card-contact-details i, .card-contact-details svg {
+   left: 18px;
+   top: 36px;
 }
 
 .slicksliderui .slider-item,
 .slicksliderui {
     max-height: 450px;
+}
+
+#categories .bg-secondary {
+    background-color: #009EFA !important;
+    border-radius: 50px;
+    max-width: 1080px;
+}
+
+#categories .btnui3:hover {
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    background: #ffffff !important;
+}
+
+#myfacts {
+    background: #009EFA;
+}
+
+#myfacts .ciconc.bg-primary {
+    box-shadow: 0 0 6px 4px #ffefa0;
+    color: #ffefa0;
+}
+
+#myfacts .card-title {
+    color: #ffefa0;
 }
  
 /*Testimonials*/
@@ -110,7 +235,7 @@ header .navbar.navbar-expand-lg .navbar-nav .nav-item a.nav-link.btn {
 
 /*Footer CSS*/
 .footer_style1 ul li a {
-    color: #494949;
+    color: inherit;
 }
 
 .footer_style1 ul li .social_links a {
@@ -122,6 +247,7 @@ header .navbar.navbar-expand-lg .navbar-nav .nav-item a.nav-link.btn {
     margin-right: 8px;
     margin-bottom: 8px;
     border-radius: 4px;
+    color: inherit;
 }
 
 .footer_style1 ul li .social_links a:hover {
@@ -147,6 +273,11 @@ header .navbar.navbar-expand-lg .navbar-nav .nav-item a.nav-link.btn {
 
 .notification-section span {
     z-index: 999;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #FA6C39 !important;
+    font-size: 30px;
 }
 
 /*Responsive*/

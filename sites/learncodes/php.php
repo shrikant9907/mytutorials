@@ -1,10 +1,56 @@
 <?php 
 include_once 'header.php';
 ?>
- 
+
 <div class="single-page bg-light common-section-ui pt_70">
     <div class="container">
         <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">
+                <div class="card cui2 noshadow r_0 w-100 typography">
+                  <h2 class='text-primary card-header mb-0'>PHP Tutorials</h2>
+                  <div class="card-body px-0 pt-0">
+                      <ul class="listing licons">
+                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        PHP &nbsp; <b>Introduction</b></a></li>
+                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        PHP &nbsp; <b>Installation</b></a></li>
+                        </ul>
+                     <!-- <a class="btn btn-primary btn-sm  btnui1 w-100 text-white">View Code <i class="ml_5 fas fa-angle-double-right    "></i></a> -->
+                  </div>
+                </div>
+                <div class="card cui2 noshadow r_0 w-100 typography">
+                  <h2 class='text-primary card-header mb-0'>Recent Posts</h2>
+                  <div class="card-body px-0 pt-0">
+                      <ul class="listing licons">
+                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
+                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
+                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
+                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
+                      </ul>
+                     <!-- <a class="btn btn-primary btn-sm  btnui1 w-100 text-white">View Code <i class="ml_5 fas fa-angle-double-right    "></i></a> -->
+                  </div>
+                </div>
+                <div class="card cui2 noshadow r_0 w-100 typography">
+                  <h2 class='text-primary card-header mb-0'>Recent Posts</h2>
+                  <div class="card-body px-0 pt-0">
+                      <ul class="listing licons">
+                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
+                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
+                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
+                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
+                      </ul>
+                     <!-- <a class="btn btn-primary btn-sm  btnui1 w-100 text-white">View Code <i class="ml_5 fas fa-angle-double-right    "></i></a> -->
+                  </div>
+                </div>
+            </div>
             <div class="col-12 col-sm-6 col-md-8">
                     <div class="card cui2 noshadow r_0 w-100 typography">
                     <div class="card-body pri_30 pri_30 pli_30 pbi_30">
@@ -21,57 +67,7 @@ include_once 'header.php';
                     </div>
                 </div>                        
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="card cui2 noshadow r_0 w-100 typography">
-                  <h2 class='text-primary card-header mb-0'>Recent Posts</h2>
-                  <div class="card-body px-0 pt-0">
-                      <ul class="listing licons">
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                      </ul>
-                     <!-- <a class="btn btn-primary btn-sm  btnui1 w-100 text-white">View Code <i class="ml_5 fas fa-angle-double-right    "></i></a> -->
-                  </div>
-                </div>
-                <div class="card cui2 noshadow r_0 w-100 typography">
-                  <h2 class='text-primary card-header mb-0'>Recent Posts</h2>
-                  <div class="card-body px-0 pt-0">
-                      <ul class="listing licons">
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                      </ul>
-                     <!-- <a class="btn btn-primary btn-sm  btnui1 w-100 text-white">View Code <i class="ml_5 fas fa-angle-double-right    "></i></a> -->
-                  </div>
-                </div>
-                <div class="card cui2 noshadow r_0 w-100 typography">
-                  <h2 class='text-primary card-header mb-0'>Recent Posts</h2>
-                  <div class="card-body px-0 pt-0">
-                      <ul class="listing licons">
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                      </ul>
-                     <!-- <a class="btn btn-primary btn-sm  btnui1 w-100 text-white">View Code <i class="ml_5 fas fa-angle-double-right    "></i></a> -->
-                  </div>
-                </div>
-            </div>
-        </div>
+         </div>
     </div>
 </div>
 

@@ -45,7 +45,7 @@
 <body>
  
 <!-- Header Start -->
-<header id="main_header" class="header sticky">
+<header id="main_header" class="header">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-3"> 
