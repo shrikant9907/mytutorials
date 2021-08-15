@@ -943,7 +943,7 @@
   }
 
   // Bidirectional ordering algorithm
-  // See http://unicode.org/reports/tr9/tr9-13.html for the algorithm
+  // See http://unicode.org/reports/tr9/tr9-13.php for the algorithm
   // that this (partially) implements.
 
   // One-char codes used for character types:
@@ -5523,7 +5523,7 @@
   // It also indexes by height, and is used to convert between height
   // and line object, and to find the total height of the document.
   //
-  // See also http://marijnhaverbeke.nl/blog/codemirror-line-tree.html
+  // See also http://marijnhaverbeke.nl/blog/codemirror-line-tree.php
 
   function LeafChunk(lines) {
     var this$1 = this;

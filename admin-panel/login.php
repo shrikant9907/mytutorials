@@ -32,7 +32,7 @@
           <div class="f30 mb_10">Admin Login</div>
        </div>
        <div class="card-body">
-        <form  class="fui fui4r" action="index.html" method="post" enctype="multipart/form-data">
+        <form  class="fui fui4r" action="index.php" method="post" enctype="multipart/form-data">
         <div class="text-center text-info mb-4">
           <span>Sign in to your account</span>
         </div>

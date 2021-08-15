@@ -41,15 +41,15 @@
     </header>
     <!-- Header End -->
     <div class="admin_menus">
-        <div class="py-3 text-center text-white text-bold f_16_18 text-bold dashboard_header"><a href="index.html">Dashboard</a></div>
+        <div class="py-3 text-center text-white text-bold f_16_18 text-bold dashboard_header"><a href="index.php">Dashboard</a></div>
         <ul class="list-group rounded-0 border-0">
-            <li class="list-group-item "><a href="customers.html"><i class="fas fa-users"></i>Customers</a>
+            <li class="list-group-item "><a href="customers.php"><i class="fas fa-users"></i>Customers</a>
             </li>
-            <li class="list-group-item "><a href="import-customers.html"><i class="fas fa-user-plus"></i>Import Customers</a>
+            <li class="list-group-item "><a href="import-customers.php"><i class="fas fa-user-plus"></i>Import Customers</a>
             </li>
-            <li class="list-group-item "><a href="settings.html"><i class="fas fa-cog"></i>Settings</a>
+            <li class="list-group-item "><a href="settings.php"><i class="fas fa-cog"></i>Settings</a>
             </li>
-            <li class="list-group-item"><a href="logout.html"><i class="fas fa-sign-out-alt"></i>Logout</a>
+            <li class="list-group-item"><a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
             </li>
         </ul>
         <!-- Admin Footer Start -->
@@ -88,10 +88,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -106,10 +106,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -124,10 +124,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -142,10 +142,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -160,10 +160,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -178,10 +178,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -196,10 +196,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -212,10 +212,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -230,10 +230,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -248,10 +248,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -266,10 +266,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -284,10 +284,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -302,10 +302,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -320,10 +320,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -336,10 +336,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -354,10 +354,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -372,10 +372,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -390,10 +390,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -408,10 +408,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -426,10 +426,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -444,10 +444,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -460,10 +460,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -478,10 +478,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -496,10 +496,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -514,10 +514,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -532,10 +532,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -550,10 +550,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -568,10 +568,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -584,10 +584,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -602,10 +602,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -620,10 +620,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -638,10 +638,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -656,10 +656,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -674,10 +674,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -692,10 +692,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -708,10 +708,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -726,10 +726,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -744,10 +744,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -762,10 +762,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -780,10 +780,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -798,10 +798,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -816,10 +816,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -832,10 +832,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -850,10 +850,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -868,10 +868,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -886,10 +886,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -904,10 +904,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -922,10 +922,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -940,10 +940,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -956,10 +956,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -974,10 +974,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -992,10 +992,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1010,10 +1010,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1028,10 +1028,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1046,10 +1046,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1064,10 +1064,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1080,10 +1080,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1098,10 +1098,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1116,10 +1116,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1134,10 +1134,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1152,10 +1152,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1170,10 +1170,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1188,10 +1188,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1204,10 +1204,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1222,10 +1222,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1240,10 +1240,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1258,10 +1258,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1276,10 +1276,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1294,10 +1294,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1312,10 +1312,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1328,10 +1328,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1346,10 +1346,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1364,10 +1364,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1382,10 +1382,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1400,10 +1400,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1418,10 +1418,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1436,10 +1436,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1452,10 +1452,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1470,10 +1470,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1488,10 +1488,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1506,10 +1506,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1524,10 +1524,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1542,10 +1542,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1560,10 +1560,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1576,10 +1576,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1594,10 +1594,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1612,10 +1612,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1630,10 +1630,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1648,10 +1648,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1666,10 +1666,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1684,10 +1684,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1700,10 +1700,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1718,10 +1718,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1736,10 +1736,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1754,10 +1754,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1772,10 +1772,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1790,10 +1790,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1808,10 +1808,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1824,10 +1824,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1842,10 +1842,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1860,10 +1860,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1878,10 +1878,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1896,10 +1896,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1914,10 +1914,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>
@@ -1932,10 +1932,10 @@
                                 <td>Customer</td>
                                 <td>12/02/2018</td>
                                 <td class="text-center">
-                                    <a href="edit-customer.html" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
+                                    <a href="edit-customer.php" class="d-inline-block" data-toggle="modal" data-target="#EditCustomerModalLong">
                                        <i class="text-success fas fa-pencil-alt mr-2"></i>
                                     </a>  
-                                    <a href="customers.html?c=delete&cid=1" class="d-inline-block">
+                                    <a href="customers.php?c=delete&cid=1" class="d-inline-block">
                                         <i class="text-danger fas fa-trash-alt"></i>
                                     </a>
                                 </td>

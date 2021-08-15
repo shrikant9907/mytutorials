@@ -54,13 +54,13 @@
             <!-- Header End -->
             
 <div class="admin_menus">
-    <div class="py-3 text-center text-white text-bold f_16_18 text-bold dashboard_header"><a href="index.html">Dashboard</a></div>
+    <div class="py-3 text-center text-white text-bold f_16_18 text-bold dashboard_header"><a href="index.php">Dashboard</a></div>
     <ul class="list-group rounded-0 border-0">
-        <li class="list-group-item "><a href="customers.html"><i class="fas fa-users"></i>Customers</a></li>
-        <li class="list-group-item "><a href="import-customers.html"><i class="fas fa-user-plus"></i>Import Customers</a></li>
-        <li class="list-group-item "><a href="import-manual-customers.html"><i class="fas fa-user-plus"></i>Add Customers</a></li>
-        <li class="list-group-item "><a href="settings.html"><i class="fas fa-cog"></i>Settings</a></li>
-        <li class="list-group-item"><a href="logout.html"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+        <li class="list-group-item "><a href="customers.php"><i class="fas fa-users"></i>Customers</a></li>
+        <li class="list-group-item "><a href="import-customers.php"><i class="fas fa-user-plus"></i>Import Customers</a></li>
+        <li class="list-group-item "><a href="import-manual-customers.php"><i class="fas fa-user-plus"></i>Add Customers</a></li>
+        <li class="list-group-item "><a href="settings.php"><i class="fas fa-cog"></i>Settings</a></li>
+        <li class="list-group-item"><a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
     </ul>    
     <!-- Admin Footer Start -->
     <footer class="admin_footer text-white py-3 mt-0">
