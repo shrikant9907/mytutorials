@@ -113,16 +113,16 @@
 
 
   <!-- jQuery -->
-	<script src="../../js/jquery.min.js" type="text/javascript"></script> 
+	<script src="../js/jquery.min.js" type="text/javascript"></script> 
 
   <!-- Popper JS -->
-	<script src="../../js/popper.min.js" type="text/javascript"></script>
+	<script src="../js/popper.min.js" type="text/javascript"></script>
 
 	<!-- Bootstrap -->
-	<script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../js/bootstrap.min.js" type="text/javascript"></script>
 
 	<!-- Slick Slider -->
-	<script type="text/javascript" src="../../js/slick.min.js"></script>
+	<script type="text/javascript" src="../js/slick.min.js"></script>
 
 	<!-- Custom Script -->
 	<script type="text/javascript" src="js/custom.js"></script>

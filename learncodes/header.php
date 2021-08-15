@@ -31,12 +31,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300,&display=swap" rel="stylesheet" />
 
   <!-- required CSS -->
-  <link rel="stylesheet" href="../../css/bootstrap.min.css" />
-  <link rel="stylesheet" href="../../css/all.min.css" />
-  <link rel="stylesheet" href="../../css/slick.css" />
-  <link rel="stylesheet" href="../../css/slick-theme.css" />
-  <link rel="stylesheet" href="../../css/components.css" />
-  <link rel="stylesheet" href="../../css/utils.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/all.min.css" />
+  <link rel="stylesheet" href="../css/slick.css" />
+  <link rel="stylesheet" href="../css/slick-theme.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/utils.css" />
   <link rel="stylesheet" href="css/style.css" />
   <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
     
