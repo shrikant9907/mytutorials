@@ -7,7 +7,7 @@
                <!-- <p><img class="footer_logo" src="https://picsum.photos/id/475/300/100" alt="" /></p> -->
 	                    <ul class="address">
                         <!-- <li><i class="fas fa-phone-alt text-primary"></i> <a href="mailto:0000000000">000 000 0000</a></li> -->
-                        <li> <i class="fa fa-envelope text-primary" aria-hidden="true"></i><a href="mailto:info@getwebcodes.in">info@getwebcodes.in</a></li>
+                        <li> <i class="fa fa-envelope text-primary" aria-hidden="true"></i><a href="mailto:info@codematra.com">info@codematra.com</a></li>
                         <!-- <li><i class="fas fa-map text-primary"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </li> -->
                       </ul>
                       <ul class="socialicons f14 colored siconsc"> 
@@ -57,7 +57,7 @@
 	 		<div class="container">
 	 			<div class="row">
 	 				 <div class="col">
-	 				 	<p class="f12 lh18 mb_10">&copy; <?php echo date('Y'); ?>. GetWebCodes.in | All Rights Reserved.</p>
+	 				 	<p class="f12 lh18 mb_10">&copy; <?php echo date('Y'); ?>. codematra.com | All Rights Reserved.</p>
 	 				 </div>
 	 				 <div class="col">
 	 				 	<p class="f12 lh18 mb_10 text-right">Developed with <span class="f18">&hearts;</span> for you<a target="_blank" class="text-white hide" href="javascript:void('0');">Shrikant</a></p>

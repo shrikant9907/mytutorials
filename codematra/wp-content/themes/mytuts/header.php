@@ -3,7 +3,7 @@
 <head> 
                 
   <title><?php wp_title(); ?></title>
-  <!-- <title>Free online tutorials and codes for students and beginners - getwebcodes.in</title> -->
+  <!-- <title>Free online tutorials and codes for students and beginners - codematra.com</title> -->
 
   <!-- Required meta tags -->
   <meta charset="<?php bloginfo( 'charset' ); ?>">

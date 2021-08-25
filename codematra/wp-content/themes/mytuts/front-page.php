@@ -9,7 +9,7 @@ get_header();
       <div class="row">
           <div class="col-12">
               <div class="banner-card nobefore">
-                  <p class="pre-banner-heading f18 mb_10 ">Welcome to getwebcodes.in</p>
+                  <p class="pre-banner-heading f18 mb_10 ">Welcome to codematra.com</p>
                   <h1 class="banner-heading f40 mb_20">Free codes to <span class="text_green">learn</span> and <br />improving your <span class="text_yellow">coding</span> skills.</h1>
                   <p class="banner-description mb_30">Our website is specially designed to make the code learning easy. <br />We created a step by step process to learn codes.</p>
                   <div class="banner-actions">
@@ -69,7 +69,7 @@ get_header();
      <div class="row">
        <div class="col-12">
          <h2 class="heading_style type2 text-center"><span class="text-secondary">Explore</span> Our Online Code <span class="text-primary">Collection</span> </h2>
-         <p class="text-center mb_40">You can learn <strong>Angular</strong>, <strong>React JS</strong>, <strong>Web Desing</strong> and many other popular web programming languages on getWebCodes.in</p>
+         <p class="text-center mb_40">You can learn <strong>Angular</strong>, <strong>React JS</strong>, <strong>Web Desing</strong> and many other popular web programming languages on codematra.com</p>
 
          <!-- Carousel -->
          <div class="ourtutorials four_col_carosusel">
