@@ -1,6 +1,22 @@
 <?php 
 /*
-* Shortcode interview questions
+* Shortcode for alerts
+*/ 
+
+add_shortcode('tutsAlert', 'tuts_alert');
+function tuts_alert($atts = array(), $content = null) {
+  extract(shortcode_atts(array(
+    'type' => 'info',
+    'uitype' => 'alertui1'
+  ), $atts));
+  $content = do_shortcode($content);
+  ob_start();
+  echo '<div class="alert alert-'.$type.' '.$uitype.'">'.$content.'</div>';
+  return ob_get_clean();
+}
+
+/*
+* Shortcode to display code files.
 */
 
 add_shortcode('CodeBlockFile', 'code_block_file');
