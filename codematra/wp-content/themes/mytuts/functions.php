@@ -12,6 +12,7 @@ require_once('include/post-types/post-type-programs.php');
 // require_once('include/post-types/post-type-examples.php');
 require_once('include/post-types/post-type-interview-questions.php');
 require_once('include/shortcodes/interview-questions-shortcodes.php');
+require_once('include/shortcodes/show-files-code.php');
 
 // Ajax Functions   
 // require_once('include/ajax-functions.php');

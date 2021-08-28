@@ -1,6 +1,6 @@
-<div class="right_sidebar_wr">
+<div class="card cui1">
 <?php dynamic_sidebar('main-sidebar-1'); ?>
-<div class="card widget_card d-none">
+<div class="card widget_card">
     <div class="card-header bg-dark rounded-0"><h3 class="text-white">Follow us on social media</h3></div>
     <div class="card-body">
         <div class="social_links2">
