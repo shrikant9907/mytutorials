@@ -30,13 +30,14 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
                 <a href="#" class="d-inline-block hidei"><img class="card-img-top r_0" src="https://picsum.photos/300/150" alt=""></a>
               <?php } ?>
             <div class="text-dark px_5 py_5 mb_10 f14 d-flex justify-content-between">
-              <span><i class="fa fa-user mr_5 text-primary" aria-hidden="true"></i> <?php the_author(); ?></span>
-              <span><i class="fa fa-tag mr_5 text-primary" aria-hidden="true"></i> 
+              <span><i class="fa fa-user mr_5 text-primary" aria-hidden="true"></i> <?php the_author_meta('user_nicename',$post->post_author); ?></span>
+               
               <?php
-              $categories = get_the_category();
+              $categories = get_the_terms(get_the_ID(), 'programs-category');
               $separator = ' ';
               $output = '';
               if ( ! empty( $categories ) ) {
+                  echo '<span><i class="fa fa-tag mr_5 text-primary" aria-hidden="true"></i>';
                   foreach( $categories as $category ) {
                       $output .= '<a class="text-dark" href="' . esc_url( get_category_link( $category->term_id ) ) . '" alt="' . esc_attr( sprintf( __( 'View all posts in %s', 'mycourse' ), $category->name ) ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
                   }
@@ -48,68 +49,8 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
             </div>
             <div class="f16">
               <?php the_content(); ?>
-              <div class="tutorials_article">
-                                    <?php 
-                                    $methods = $cfs->get('methods'); 
-                                    if($methods){ ?>
-                                        <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/codemirror.js"></script>
-                                        <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/codemirror/mode/xml.js"></script>
-                                        <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/codemirror/mode/javascript.js"></script>
-                                        <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/codemirror/mode/css.js"></script>
-                                        <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/codemirror/mode/clike.js"></script>
-                                        <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/codemirror/mode/php.js"></script> 
-                                        <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/codemirror/mode/python.js"></script> 
-                                        <?php 
-                                        $methodCount = 1;
-                                        foreach($methods as $method){
-                                            
-                                            $methodTitle = $method['method_title'];
-                                            $methodOptions = $method['method_options'];
-                                            echo '<div class="method border-bottom mb-4">';
-                                            echo "<h4 class='m-0 mb-3 f20 lh22 text-primary'>$methodTitle</h4>";
-                                            $countOption = 1;
-                                            foreach($methodOptions as $option) {
-                                                $mode = $option['mode'];
-                                                if (!$mode) {
-                                                    $mode = 'php';
-                                                }
-                                                $description = $option['description'];
-                                                $note = $option['note'];
-                                                $file = htmlspecialchars($option['file']);
-                                                if($file!=''){   
-                                               
-                                                $textarea_id = 'tx'.$methodCount.$countOption;
-                                              
-                                                  $headerfile = $programsPath.$term_slug.'/'.$file;
-                                                      
-                                                  $headercode = htmlspecialchars(file_get_contents($headerfile));  
-                                                ?>
-                                                <textarea id='<?php echo $textarea_id; ?>'><?php echo $headercode; ?></textarea>
-                                                <script>
-                                                  var editor = CodeMirror.fromTextArea(document.getElementById("<?php echo $textarea_id; ?>"), {
-                                                    lineNumbers: true,
-                                                    styleActiveLine: false,
-                                                    matchBrackets: true,
-                                                    mode: "<?php echo $mode; ?>",
-                                                    readOnly: true
-                                                  });
-                                                </script> 
-                                            <?php
-       
-                                                }                                        
-                                            echo '<div class="description pb-0">'.$description.'</div>';
-                                            if ($note){
-                                                echo '<div class="alert alert-info">'.$note.'</div>';
-                                            }
-                                            $countOption++;
-                                            }
-                                            echo "</div>";
-                                            $methodCount++;
-                                        }
-                                    }?>
-                                                
-                                    </div> 
-            </div>
+              
+          </div>
           </div>
         </div>      
 
