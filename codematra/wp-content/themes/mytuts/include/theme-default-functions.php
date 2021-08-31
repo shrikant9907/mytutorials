@@ -72,10 +72,10 @@ add_theme_support( 'post-thumbnails' );
 
 
 /* Setup Theme Widgets */
-function custom_tutorsincity_widgets_init() { 
+function custom_codematra_widgets_init() { 
 
   register_sidebar( array(
-    'name'          => __( 'Main Sidebar', 'tutorsincity' ),
+    'name'          => __( 'Main Sidebar', 'codematra' ),
     'description'   => 'It will display on Post Details OR Listing pages.',
     'id'            => 'main-sidebar-1',
     'before_widget' => '<div id="%1$s" class="card cui2  w-100 typography %2$s">',
@@ -85,7 +85,7 @@ function custom_tutorsincity_widgets_init() {
   ));  
     
   register_sidebar( array(
-    'name'          => __( 'Footer Sidebar1', 'tutorsincity' ),
+    'name'          => __( 'Footer Sidebar1', 'codematra' ),
     'id'            => 'footer-sidebar-1',
     'before_widget' => '<div id="%1$s" class="col-md-3 widget %2$s">',
     'after_widget'  => '</div>',
@@ -94,7 +94,7 @@ function custom_tutorsincity_widgets_init() {
   ));  
    
    register_sidebar( array(
-    'name'          => __( 'Footer Sidebar2', 'tutorsincity' ),
+    'name'          => __( 'Footer Sidebar2', 'codematra' ),
     'id'            => 'footer-sidebar-2',
     'before_widget' => '<div id="%1$s" class="col-md-3 widget %2$s">',
     'after_widget'  => '</div>',
@@ -103,7 +103,7 @@ function custom_tutorsincity_widgets_init() {
   )); 
     
    register_sidebar( array(
-    'name'          => __( 'Footer Sidebar3', 'tutorsincity' ),
+    'name'          => __( 'Footer Sidebar3', 'codematra' ),
     'id'            => 'footer-sidebar-3',
     'before_widget' => '<div id="%1$s" class="col-md-3 widget %2$s">',
     'after_widget'  => '</div>',
@@ -112,7 +112,7 @@ function custom_tutorsincity_widgets_init() {
   )); 
    
    register_sidebar( array(
-    'name'          => __( 'Footer Sidebar4', 'tutorsincity' ),
+    'name'          => __( 'Footer Sidebar4', 'codematra' ),
     'id'            => 'footer-sidebar-4',
     'before_widget' => '<div id="%1$s" class="col-md-3 widget %2$s">',
     'after_widget'  => '</div>',
@@ -122,7 +122,7 @@ function custom_tutorsincity_widgets_init() {
   
          
 }  
-add_action( 'widgets_init', 'custom_tutorsincity_widgets_init',10, 0 ); 
+add_action( 'widgets_init', 'custom_codematra_widgets_init',10, 0 ); 
  
 
  /*
@@ -356,7 +356,7 @@ function activated($v1, $v2) {
 function istl_theme_entry_meta() {
     
     // Translators: used between list items, there is a space after the comma.
-        $categories = get_the_category_list( __( ', ', 'tutorsincity' ) );
+        $categories = get_the_category_list( __( ', ', 'codematra' ) );
         if($categories!='') {
             $categories_list = '<span class="category" itemprop="articleSection"><i class="fa fa-bookmark"></i> '. $categories . "</span>";
             echo $categories_list;
@@ -373,19 +373,19 @@ function istl_theme_entry_meta() {
 
 //  $author = sprintf( '<span itemprop="author"><i class="fas fa-user"></i><span class="author"><a href="%1$s" title="%2$s" rel="">%3$s</a></span></span>',
 //      esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
-//      esc_attr( sprintf( __( 'View all posts by %s', 'tutorsincity' ), get_the_author() ) ),
+//      esc_attr( sprintf( __( 'View all posts by %s', 'codematra' ), get_the_author() ) ),
 //      get_the_author()
 //  );
     
 //  $comment_number = get_comments_number();
-//  $comment_number = sprintf( _n( '1 Comment', '%s Comments', $comment_number, 'tutorsincity' ), $comment_number );
+//  $comment_number = sprintf( _n( '1 Comment', '%s Comments', $comment_number, 'codematra' ), $comment_number );
 //  $comment_number =  sprintf( ' <span class="comments" itemprop="interactionCount"> <i class="fa fa-comment"></i><a href="%1$s" title="%2$s" rel="comments">%2$s</a></span>',
 //      get_comments_link(),
 //      $comment_number
 //  );
 
     // Translators: used between list items, there is a space after the comma.
-        $tags = get_the_tag_list( '', __( ', ', 'tutorsincity' ) );
+        $tags = get_the_tag_list( '', __( ', ', 'codematra' ) );
         if($tags!='') {
             $tag_list = '<span class="tags"> <i class="fas fa-tags"></i> '.$tags. '</span>';
             echo $tag_list;
