@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
 
 
   <!-- required CSS -->
@@ -27,7 +28,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      font-weight: 700;
+      font-weight: 400;
       text-decoration: unset;
       color: #000000;
       margin-top:100px;
@@ -36,7 +37,6 @@
     .site_logo a .logo_text{
       font-family: 'Rajdhani', sans-serif;
       font-size: 40px;
-      letter-spacing: 1px;
       color: #FB1D1D;
     }
 
@@ -45,12 +45,15 @@
     }
 
     .site_logo .tag_line {
-      font-size: 11px;
-      font-weight: 400;
-      letter-spacing: 0.7px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 10px;
+      font-weight: 200;
+      letter-spacing: 0.5px;
+      /*word-spacing:  3px;*/
       line-height: 18px;
       text-transform: uppercase;
-  }
+      color:  grey;
+   }
 
   </style>
 
@@ -60,9 +63,7 @@
   
   <div class="site_logo with_tagline">
     <a href="#">
-      <div class="logo_text">
-        Code <span>Matra</span>
-      </div> 
+      <div class="logo_text"><strong>C</strong></span>ode<span><strong>M</strong>atra</span></div> 
       <div class="tag_line">Learn code from the basics</div>
     </a>
   </div>
