@@ -1,3 +1,13 @@
+<?php 
+
+$term_taxonomy = 'programs-category';
+$term_obj_list = get_the_terms( $post->ID, $term_taxonomy );
+$term_id = $term_obj_list['0']->term_id;
+$term_name = $term_obj_list['0']->name;
+$term_slug = $term_obj_list['0']->slug;
+
+?>
+
 <!-- Programs List -->
 <div class="card cui2">
     <div class="card-header rounded-0 pb_0">
@@ -16,7 +26,7 @@
                                             array(
                                                     'taxonomy' => 'programs-category',
                                                     'field' => 'slug',
-                                                    'terms' => 'php', 
+                                                    'terms' => $term_slug, 
                                                     'include_children' => false
                                             )
                                         ) 
