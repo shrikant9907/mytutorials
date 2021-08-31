@@ -15,8 +15,8 @@
   <meta property="og:url" content="" />
   <meta property="og:image" content="" />
 
-  <meta name="google-site-verification" content="" />
-  <meta name="robots" content="noindex, nofollow" />
+  <!-- <meta name="google-site-verification" content="" /> -->
+  <!-- <meta name="robots" content="noindex, nofollow" /> -->
 
   <!-- Favicon -->
   <link rel='icon' href='<?php echo get_stylesheet_directory_uri(); ?>/images/favicon.png' type='image/x-icon' />
@@ -101,18 +101,18 @@
                 <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
               </button> -->
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mx-auto d-flex">
-                  <li class="nav-item"><a class="nav-link text-white" href="#">HTML</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="#">CSS</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="#">Bootstrap</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="#">jQuery</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="#">JavaScript</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="#">React JS</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="#">Angular</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="#">PHP</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="#">WordPress</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="#">Python</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="#">Django</a></li>
+                <ul class="navbar-nav mx-auto d-flex"> 
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/html/'); ?>">HTML</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/css/'); ?>">CSS</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/bootstrap/'); ?>">Bootstrap</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/jquery/'); ?>">jQuery</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/javascript/'); ?>">JavaScript</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/react-js/'); ?>">React JS</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/angular/'); ?>">Angular</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/php/'); ?>">PHP</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/wordpress/'); ?>">WordPress</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/python/'); ?>">Python</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/django/'); ?>">Django</a></li>
                 </ul>
               </div>
             </nav>

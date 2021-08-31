@@ -49,7 +49,7 @@ if ($term_name) {
             <a href="<?php the_permalink(); ?>" class="d-inline-block hidei"><img class="card-img-top r_0" src="https://picsum.photos/300/150" alt=""></a>
             <?php } ?>
             <div class="f16 mb_30">
-              <?php echo wp_trim_words(get_the_content(), 50); ?>
+              <?php echo wp_trim_words(get_the_excerpt(), 50); ?>
             </div>
             <div class="f16">
                 <a href="<?php the_permalink(); ?>" class="btn btn-primary btnui3s text-uppercase"><?php _e('Continue Reading '); ?> <i class="ml_5 f18 lh1 fas fa-angle-right"></i></a>
