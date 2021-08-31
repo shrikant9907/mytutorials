@@ -20,6 +20,10 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
 <div class="single-page bg-light common-section-ui pt_70">
   <div class="container">
     <div class="row">
+      <div class="col-12 col-sm-6 col-md-4">
+        <?php get_sidebar('programs'); ?>
+      </div>
+    
       <div class="col-12 col-sm-6 col-md-8">
         <div class="card cui2 noshadow r_0 w-100 typography">
           <div class="card-body pri_30 pli_30 pbi_30">
@@ -73,10 +77,7 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
         </div>
                             
       </div>
-      <div class="col-12 col-sm-6 col-md-4">
-        <?php get_sidebar(); ?>
-      </div>
-    </div>
+     </div>
   </div>
 </div>
        

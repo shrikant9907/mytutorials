@@ -24,11 +24,11 @@ function code_block_file($atts) {
 
     extract(shortcode_atts(array(
       'mode' => 'php',
-      'file' => '/tutscodes/programs/php/hello-world.php',
+      'file' => 'programs/php/hello-world.php',
     ), $atts));
 
 		ob_start();
-    $themeLocation = get_stylesheet_directory();
+    $themeLocation = get_stylesheet_directory() . '/tutscodes/';
     $fileLocation = $themeLocation . $file;
 
     if (!file_exists($fileLocation)) {

@@ -3,7 +3,7 @@ get_header();
 ?>
 
 <!-- Banner UI 1 -->
-<div class="banner-section bg_black text-white mt_0 min_h_550">
+<div class="banner-section bg_black text-white mt_0 min_h_400">
   <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/shrikant_yadav_full.jpg" class="op5 overlay_w" />
   <div class="container">
       <div class="row">
@@ -349,100 +349,8 @@ get_header();
      
     </div>
     <!-- Row End -->
-        <!-- Row Start -->
-        <div class="form-row">
-
-          <div class="col">
-            <div class="card cui4b mb_10 text-dark r_0 border text-center">
-              <div class="card-body">
-                <h5 class="card-title mbi_0">Python Quiz</h5>
-                <p class="card-text">35 Questions - 30 min</p>
-              </div>
-            </div>
-          </div>  
-          <div class="col">
-            <div class="card cui4b mb_10 text-dark r_0 border text-center">
-              <div class="card-body">
-                <h5 class="card-title mbi_0">Python Quiz</h5>
-                <p class="card-text">35 Questions - 30 min</p>
-              </div>
-            </div>
-          </div>  
-          <div class="col">
-            <div class="card cui4b mb_10 text-dark r_0 border text-center">
-              <div class="card-body">
-                <h5 class="card-title mbi_0">Python Quiz</h5>
-                <p class="card-text">35 Questions - 30 min</p>
-              </div>
-            </div>
-          </div>  
-          <div class="col">
-            <div class="card cui4b mb_10 text-dark r_0 border text-center">
-              <div class="card-body">
-                <h5 class="card-title mbi_0">Python Quiz</h5>
-                <p class="card-text">35 Questions - 30 min</p>
-              </div>
-            </div>
-          </div>  
-          <div class="col">
-            <div class="card cui4b mb_10 text-dark r_0 border text-center">
-              <div class="card-body">
-                <h5 class="card-title mbi_0">Python Quiz</h5>
-                <p class="card-text">35 Questions - 30 min</p>
-              </div>
-            </div>
-          </div>  
-       
-         
-        </div>
-        <!-- Row End -->
-            <!-- Row Start -->
-    <div class="form-row">
-
-      <div class="col">
-        <div class="card cui4b mb_10 text-dark r_0 border text-center">
-          <div class="card-body">
-            <h5 class="card-title mbi_0">Python Quiz</h5>
-            <p class="card-text">35 Questions - 30 min</p>
-          </div>
-        </div>
-      </div>  
-      <div class="col">
-        <div class="card cui4b mb_10 text-dark r_0 border text-center">
-          <div class="card-body">
-            <h5 class="card-title mbi_0">Python Quiz</h5>
-            <p class="card-text">35 Questions - 30 min</p>
-          </div>
-        </div>
-      </div>  
-      <div class="col">
-        <div class="card cui4b mb_10 text-dark r_0 border text-center">
-          <div class="card-body">
-            <h5 class="card-title mbi_0">Python Quiz</h5>
-            <p class="card-text">35 Questions - 30 min</p>
-          </div>
-        </div>
-      </div>  
-      <div class="col">
-        <div class="card cui4b mb_10 text-dark r_0 border text-center">
-          <div class="card-body">
-            <h5 class="card-title mbi_0">Python Quiz</h5>
-            <p class="card-text">35 Questions - 30 min</p>
-          </div>
-        </div>
-      </div>  
-      <div class="col">
-        <div class="card cui4b mb_10 text-dark r_0 border text-center">
-          <div class="card-body">
-            <h5 class="card-title mbi_0">Python Quiz</h5>
-            <p class="card-text">35 Questions - 30 min</p>
-          </div>
-        </div>
-      </div>  
-   
      
-    </div>
-    <!-- Row End -->
+     
    </div>
  </section>
  <!-- Facts  End -->
