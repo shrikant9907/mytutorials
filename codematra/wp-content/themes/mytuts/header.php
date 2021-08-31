@@ -38,6 +38,7 @@
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/components.css" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/utils.css?ver=<?php echo $timestamp; ?>" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css?ver=<?php echo $timestamp; ?>" />
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/wp-styles.css?ver=<?php echo $timestamp; ?>" />
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/responsive.css?ver=<?php echo $timestamp; ?>" /> 
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/codemirror.css?ver=<?php echo $timestamp; ?>">
 
@@ -102,17 +103,17 @@
               </button> -->
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto d-flex"> 
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/html/'); ?>">HTML</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/css/'); ?>">CSS</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/bootstrap/'); ?>">Bootstrap</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/jquery/'); ?>">jQuery</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/javascript/'); ?>">JavaScript</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/react-js/'); ?>">React JS</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/angular/'); ?>">Angular</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/php/'); ?>">PHP</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/wordpress/'); ?>">WordPress</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/python/'); ?>">Python</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="<?php the_permalink('/programs-category/django/'); ?>">Django</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/html/'); ?>">HTML</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/css/'); ?>">CSS</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/bootstrap/'); ?>">Bootstrap</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/jquery/'); ?>">jQuery</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/javascript/'); ?>">JavaScript</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/react-js/'); ?>">React JS</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/angular/'); ?>">Angular</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/php/'); ?>">PHP</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/wordpress/'); ?>">WordPress</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/python/'); ?>">Python</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="<?php echo site_url('/programs-category/django/'); ?>">Django</a></li>
                 </ul>
               </div>
             </nav>

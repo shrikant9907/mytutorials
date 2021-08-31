@@ -79,7 +79,7 @@ function custom_codematra_widgets_init() {
     'description'   => 'It will display on Post Details OR Listing pages.',
     'id'            => 'main-sidebar-1',
     'before_widget' => '<div id="%1$s" class="card cui2  w-100 typography %2$s">',
-    'after_widget'  => '</div></div>',
+    'after_widget'  => '</div>',
     'before_title'  => '<div class="text-primary pti_20 pri_30 pli_30 pbi_0"><h3 class="mb-0">',
     'after_title'   => '</h3></div><div class="card-body f16 listing">',
   ));  

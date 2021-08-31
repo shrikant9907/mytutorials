@@ -5,6 +5,54 @@ body {
     line-height: 26px;
 }
 
+
+
+/*Sidebar Widget*/
+.card.widget_card {
+    margin: 0 0 20px 0;
+  }
+  
+  .card.widget_card .card-header {
+    overflow: hidden;
+  }
+  
+  .card.widget_card .card-header h5,
+  .card.widget_card .card-header h4,
+  .card.widget_card .card-header h3 {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .card.widget_card .card-body {
+    padding-bottom: 8px !important;
+  }
+  
+  .card.widget_card .card-body ul {
+    list-style: outside none none;
+    padding: 0px;
+    margin-left: 20px;
+  }
+  
+  .card.widget_card .card-body ul li {
+    position: relative;
+    margin: 0 0 12px 0;
+  }
+  
+  .card.widget_card .card-body ul li::before {
+    position: absolute;
+    top: 8px;
+    left: -23px;
+    border: none;
+    border-top: 1px solid #174BDA;
+    border-right: 1px solid #174BDA;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    content: " ";
+    margin-right: 5px;
+  }
+
 .typography p,
 .typography h1,
 .typography h2,
