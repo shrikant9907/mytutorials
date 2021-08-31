@@ -14,5 +14,5 @@ for ($n = 2; $n < $number; $n++) {
 if ($isPrimeNumber) {
     echo "$number is prime number.";
 } else {
-    echo "$number is prime not number.";
+    echo "$number is not a prime number.";
 }    
