@@ -21,8 +21,7 @@ get_header();
   </div>
 </div>
 
-
-<section class="common-section-ui pb_80">
+<section class="common-section-ui pb_80 hide">
   <h2 class="heading_style type2 text-center"><span class="text-secondary">How to </span> start learning <span class="text-primary">Codes</span> </h2>
   <p class="text-center mb_40">Start read the tutorials or watch videos to get the understanding of programming. <br /> 
     Practice yourself with the examples and projects available on our website also try to create your own. <br >
@@ -63,8 +62,181 @@ get_header();
   </div>
 </section>
 
+
+<!-- Blog Featured Posts Start -->
+<div class="blog-index-page common-section-ui pt_40 pb_0">
+	<div class="container">
+		<!-- <h3 class="heading_style type2 text-uppercase mb_20">Featured Listing</h3> -->
+		<div class="row">
+		<div class="col-12 col-sm-6 col-md-6">
+			<div class="card cui2 box_shw3 r_0 relative f14 cfeatured">
+			<span class="badge bg_green text-white absolute r_0 p_5 fixed_top_right">Web Design</span>
+			<a href="blog-details.html" class="d-inline-block cimgwr" >
+				<img class="card-img-top r_0" src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder_500x300.jpg" alt="" />
+				<div class="f18 mb_10 cheading">
+					<small class="mb_5 d-block">March 21 2021</small>
+					Lorem Ipsum is simply dummy text of the printing
+				</div>
+			</a>
+			<!-- <div class="card-body ">
+				<div class="cmeta text-muted px_5 py_5 mb_10 f12 d-flex justify-content-between"><span><i class="fa fa-user mr_5" aria-hidden="true"></i> Shrikant</span> <span><i class="fa fa-calendar mr_5" aria-hidden="true"></i> 1 Dec 2020</span></div>
+				<p class="cdesc mb_0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</p>
+			</div> -->
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-md-6">
+			<div class="card cui2 box_shw3 r_0 relative f14 cfeatured">
+			<span class="badge bg_green text-white absolute r_0 p_5 fixed_top_right">Web Design</span>
+			<a href="blog-details.html" class="d-inline-block cimgwr" >
+				<img class="card-img-top r_0" src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder_500x300.jpg" alt="" />
+				<div class="f18 mb_10 cheading">
+					<small class="mb_5 d-block">March 21 2021</small>
+					Lorem Ipsum is simply dummy text of the printing
+				</div>
+			</a>
+			<!-- <div class="card-body ">
+				<div class="cmeta text-muted px_5 py_5 mb_10 f12 d-flex justify-content-between"><span><i class="fa fa-user mr_5" aria-hidden="true"></i> Shrikant</span> <span><i class="fa fa-calendar mr_5" aria-hidden="true"></i> 1 Dec 2020</span></div>
+				<p class="cdesc mb_0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</p>
+			</div> -->
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+<!-- Blog Featured Posts End -->
+
+<!-- Recent Posts with Sidebar Start -->
+<div class="blog-index-page common-section-ui pt_20 pb_40">
+	<div class="container">
+		<h3 class="heading_style type2 text-uppercase mb_20">Recent Posts</h3>
+	
+	<div class="row">
+		<div class="col-12 col-sm-6 col-md-9">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="card cui2 box_shw3 r_0 relative f14">
+					<span class="badge bg_indigo text-white absolute r_0 p_5 fixed_top_right">Web Design</span>
+					<a href="blog-details.html" class="d-inline-block cimgwr" >
+						<img class="card-img-top r_0" src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder_500x300.jpg" alt="" />
+					</a>
+					<div class="card-body ">
+						<div class="f16 mb_10 cheading font_bold lh20">
+							<a href="blog-details.html" class="d-inline-block text-dark" >
+								Lorem Ipsum is simply dummy text of the printing
+							</a>
+						</div>
+						<div class="cmeta text-muted f12 d-flex justify-content-between"><span><i class="fa fa-user mr_5" aria-hidden="true"></i> Shrikant</span> <span><i class="fa fa-calendar mr_5" aria-hidden="true"></i> 1 Dec 2020</span></div>
+						<!-- <p class="cdesc mb_0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</p> -->
+					</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="card cui2 box_shw3 r_0 relative f14">
+					<span class="badge bg_green text-white absolute r_0 p_5 fixed_top_right">Web Design</span>
+					<a href="blog-details.html" class="d-inline-block cimgwr" >
+						<img class="card-img-top r_0" src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder_500x300.jpg" alt="" />
+					</a>
+					<div class="card-body ">
+						<div class="f16 mb_10 cheading font_bold lh20">
+							<a href="blog-details.html" class="d-inline-block text-dark" >
+								Lorem Ipsum is simply dummy text of the printing
+							</a>
+						</div>
+						<div class="cmeta text-muted f12 d-flex justify-content-between"><span><i class="fa fa-user mr_5" aria-hidden="true"></i> Shrikant</span> <span><i class="fa fa-calendar mr_5" aria-hidden="true"></i> 1 Dec 2020</span></div>
+						<!-- <p class="cdesc mb_0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</p> -->
+					</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="card cui2 box_shw3 r_0 relative f14">
+					<span class="badge bg_green text-white absolute r_0 p_5 fixed_top_right">Web Design</span>
+					<a href="blog-details.html" class="d-inline-block cimgwr" >
+						<img class="card-img-top r_0" src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder_500x300.jpg" alt="" />
+					</a>
+					<div class="card-body ">
+						<div class="f16 mb_10 cheading font_bold lh20">
+							<a href="blog-details.html" class="d-inline-block text-dark" >
+								Lorem Ipsum is simply dummy text of the printing
+							</a>
+						</div>
+						<div class="cmeta text-muted f12 d-flex justify-content-between"><span><i class="fa fa-user mr_5" aria-hidden="true"></i> Shrikant</span> <span><i class="fa fa-calendar mr_5" aria-hidden="true"></i> 1 Dec 2020</span></div>
+						<!-- <p class="cdesc mb_0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</p> -->
+					</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="card cui2 box_shw3 r_0 relative f14">
+					<span class="badge bg_green text-white absolute r_0 p_5 fixed_top_right">Web Design</span>
+					<a href="blog-details.html" class="d-inline-block cimgwr" >
+						<img class="card-img-top r_0" src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder_500x300.jpg" alt="" />
+					</a>
+					<div class="card-body ">
+						<div class="f16 mb_10 cheading font_bold lh20">
+							<a href="blog-details.html" class="d-inline-block text-dark" >
+								Lorem Ipsum is simply dummy text of the printing
+							</a>
+						</div>
+						<div class="cmeta text-muted f12 d-flex justify-content-between"><span><i class="fa fa-user mr_5" aria-hidden="true"></i> Shrikant</span> <span><i class="fa fa-calendar mr_5" aria-hidden="true"></i> 1 Dec 2020</span></div>
+						<!-- <p class="cdesc mb_0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</p> -->
+					</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="card cui2 box_shw3 r_0 relative f14">
+					<span class="badge bg_green text-white absolute r_0 p_5 fixed_top_right">Web Design</span>
+					<a href="blog-details.html" class="d-inline-block cimgwr" >
+						<img class="card-img-top r_0" src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder_500x300.jpg" alt="" />
+					</a>
+					<div class="card-body ">
+						<div class="f16 mb_10 cheading font_bold lh20">
+							<a href="blog-details.html" class="d-inline-block text-dark" >
+								Lorem Ipsum is simply dummy text of the printing
+							</a>
+						</div>
+						<div class="cmeta text-muted f12 d-flex justify-content-between"><span><i class="fa fa-user mr_5" aria-hidden="true"></i> Shrikant</span> <span><i class="fa fa-calendar mr_5" aria-hidden="true"></i> 1 Dec 2020</span></div>
+						<!-- <p class="cdesc mb_0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</p> -->
+					</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="card cui2 box_shw3 r_0 relative f14">
+					<span class="badge bg_blue text-white absolute r_0 p_5 fixed_top_right">Web Design</span>
+					<a href="blog-details.html" class="d-inline-block cimgwr" >
+						<img class="card-img-top r_0" src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder_500x300.jpg" alt="" />
+					</a>
+					<div class="card-body ">
+						<div class="f16 mb_10 cheading font_bold lh20">
+							<a href="blog-details.html" class="d-inline-block text-dark" >
+								Lorem Ipsum is simply dummy text of the printing
+							</a>
+						</div>
+						<div class="cmeta text-muted f12 d-flex justify-content-between"><span><i class="fa fa-user mr_5" aria-hidden="true"></i> Shrikant</span> <span><i class="fa fa-calendar mr_5" aria-hidden="true"></i> 1 Dec 2020</span></div>
+						<!-- <p class="cdesc mb_0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</p> -->
+					</div>
+					</div>
+				</div>
+		</div>
+		</div>
+		<div class="col-12 col-sm-6 col-md-3">
+			<div class="card cui2 noshadow r_0 w-100 typography">
+				<div class="">
+				   <h2 class='heading_style type2 text-uppercase f16 mb_10 font_bold'>Top Categories</h2>
+				   <ul class="f16 listing type2">
+						<li><a href="">HTML</a></li>
+						<li><a href="">CSS</a></li>
+						<li><a href="">Web Design</a></li>
+						<li><a href="">React Js</a></li>
+				   </ul>
+				</div>
+			  </div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- Recent Posts with Sidebar Ends -->
+
  <!-- Tutorials  Section -->
- <section id="ourTutorials" class="common-section-ui bg-light f16 pb_20">
+ <section id="ourTutorials" class="common-section-ui bg-light f16 pb_20 hide">
    <div class="container">
      <div class="row">
        <div class="col-12">
@@ -181,7 +353,7 @@ get_header();
  <!-- Tutorials  Section End -->
 
  <!-- Categories  Section -->
- <section id="categories" class='common-section-ui bg-light pt_0 pb_80'>
+ <section id="categories" class='common-section-ui bg-light pt_0 pb_80 hide'>
   <div class="container max_w_900 bg-white common-section-ui py_40 box_shw2 r_50">
     <div class="max_w_800 mx-auto w-100">
     <div class="form-row">
@@ -297,7 +469,7 @@ get_header();
 
 
  <!-- Quizzes  -->
- <section id="test-your-skills" class="common-section-ui text-white bg-primary">
+ <section id="test-your-skills" class="common-section-ui text-white bg-primary hide">
    <div class="container-fluid">
     <h2 class="heading_style text-center text-white">Test Your Programming Skills</h2>
     <p class="text-center mb_40">Its time to check your programming skill with multi choice questions (MCQs) and quizzes</p>
@@ -356,40 +528,12 @@ get_header();
  <!-- Facts  End -->
 
 
-<section id="interview" class="common-section-ui pb_80 bg-light">
-  <h2 class="heading_style type2 text-center"><span class="text-secondary">Interview </span> Questions for <span class="text-primary">Job Preparation</span> </h2>
+<section id="interview" class="common-section-ui pb_40 pt_40 bg-light">
   <div class="container">
+  <h2 class="heading_style type2 text-uppercase mb_20">Interview Questions</h2>
     <div class="row">
         <div class="col-12 col-md-6">
-          <div class="card cui3c">
-            <div class="card-body">
-              <h5 class="card-title text-primary">PHP Interview Questions</h5>
-              <ul class="listing type2 licons w-100">
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="card cui3c">
-            <div class="card-body">
-              <h5 class="card-title text-primary">WordPress Interview Questions</h5>
-              <ul class="listing type2 licons w-100">
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="card cui3c">
+          <div class="card cui2 r_0 noshadow ">
             <div class="card-body">
               <h5 class="card-title text-primary">Web Design Interview Questions</h5>
               <ul class="listing type2 licons w-100">
@@ -403,7 +547,7 @@ get_header();
           </div>
         </div>
         <div class="col-12 col-md-6">
-          <div class="card cui3c">
+          <div class="card cui2 r_0 noshadow">
             <div class="card-body">
               <h5 class="card-title text-primary">Python Interview Questions</h5>
               <ul class="listing type2 licons w-100">
@@ -422,7 +566,7 @@ get_header();
 
 
  	<!-- News and Events Section -->
- 	<section id="news-and-blog" class="common-section-ui">
+ 	<section id="news-and-blog" class="common-section-ui hide">
  		<div class="container">
        <div class="row">
 
@@ -477,10 +621,10 @@ get_header();
       <div class="row">
         <div class="col-12">
          <div class="card cui1 text-white">
-            <h2 class="text-white mb_15">Tell us what you want.</h2>
+            <h2 class="text-white mb_15 text-uppercase">Tell us if you need anything</h2>
             <p class="card-text f16">Your suggestions will help us to improve our website for you.</p>
          </div>
-         <a href="contact-us.html" class="btn btn-primary btnui3s">Contact us</a>
+         <a href="<?php echo site_url('contact-us'); ?>" class="btn btn-primary btnui3s">Contact us</a>
        </div>    
    </div>
     </div>
