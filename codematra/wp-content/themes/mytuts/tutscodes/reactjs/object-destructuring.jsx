@@ -7,4 +7,4 @@ var employee = {    // Object we want to destructure
 // different names than the object variables
 
 var { firstname: fn, lastname: ln, dateofbirth: dob } = employee;
-console.log( fn, ln, dob); 
+console.log( fn, ln, dob);  

@@ -64,7 +64,7 @@ get_header();
 
 
 <!-- Blog Featured Posts Start -->
-<div class="blog-index-page common-section-ui pt_40 pb_0">
+<div class="blog-index-page common-section-ui pt_60 pb_30 bg-light">
 	<div class="container">
 		<!-- <h3 class="heading_style type2 text-uppercase mb_20">Featured Listing</h3> -->
 		<div class="row">
@@ -106,12 +106,12 @@ get_header();
 <!-- Blog Featured Posts End -->
 
 <!-- Recent Posts with Sidebar Start -->
-<div class="blog-index-page common-section-ui pt_20 pb_40">
+<div class="blog-index-page common-section-ui pt_60 pb_40">
 	<div class="container">
 		<h3 class="heading_style type2 text-uppercase mb_20">Recent Posts</h3>
 	
 	<div class="row">
-		<div class="col-12 col-sm-6 col-md-9">
+		<div class="col-12">
 			<div class="row">
 				<div class="col-12 col-sm-6 col-md-4">
 					<div class="card cui2 box_shw3 r_0 relative f14">
@@ -217,7 +217,7 @@ get_header();
 				</div>
 		</div>
 		</div>
-		<div class="col-12 col-sm-6 col-md-3">
+		<div class="col-12 col-sm-6 col-md-3 hide">
 			<div class="card cui2 noshadow r_0 w-100 typography">
 				<div class="">
 				   <h2 class='heading_style type2 text-uppercase f16 mb_10 font_bold'>Top Categories</h2>
@@ -528,35 +528,79 @@ get_header();
  <!-- Facts  End -->
 
 
-<section id="interview" class="common-section-ui pb_40 pt_40 bg-light">
+<section id="interview" class="common-section-ui pb_40 pt_60 bg-light">
   <div class="container">
   <h2 class="heading_style type2 text-uppercase mb_20">Interview Questions</h2>
     <div class="row">
         <div class="col-12 col-md-6">
-          <div class="card cui2 r_0 noshadow ">
+          <div class="card cui2 r_0 box_shw3 pt_20 ">
             <div class="card-body">
-              <h5 class="card-title text-primary">Web Design Interview Questions</h5>
+              <h5 class=" text-center card-title text-primary text-uppercase"><span class="text-dark">React Js</span> - Interview Questions</h5>
               <ul class="listing type2 licons w-100">
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
+              <?php 
+                $args = array(
+                        'post_type'         =>  'interview-questions', 
+                        'posts_per_page'    =>  5, 
+                        'orderby'           =>  'id', 
+                        'order'             =>  'asc', 
+                        'tax_query'         =>  array(
+                                                    array(
+                                                            'taxonomy' => 'interview-questions-category',
+                                                            'field' => 'slug',
+                                                            'terms' => 'react-js', 
+                                                            'include_children' => false
+                                                    )
+                                                ) 
+                        );  
+                $reactQuestions = get_posts($args); 
+                if ($reactQuestions) {
+                foreach($reactQuestions as $top) {
+                ?>
+                    <li class="list-item"><a href="<?php the_permalink($top->ID); ?>"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i><?php echo $top->post_title; ?></a></li>
+                <?php    
+                }} else { ?>
+                    <li class="list-item">No records found.</li>
+                  <?php 
+                }    
+                ?>
               </ul>
             </div>
+            <p class="text-center"><a class="btn btn-sm btn-primary btnui3" href="<?php echo site_url('interview-questions-category/react-js/'); ?>">More Questions</a></p>
           </div>
         </div>
         <div class="col-12 col-md-6">
-          <div class="card cui2 r_0 noshadow">
+          <div class="card cui2 r_0 box_shw3 pt_20">
             <div class="card-body">
-              <h5 class="card-title text-primary">Python Interview Questions</h5>
+            <h5 class="card-title text-center text-primary text-uppercase"><span class="text-dark">WordPress</span> - Interview Questions</h5>
               <ul class="listing type2 licons w-100">
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                <li class="list-item"><a href="#"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i>Lorem, ipsum dolor sit amet consecteturae!</a></li>
+              <?php 
+                $args = array(
+                        'post_type'         =>  'interview-questions', 
+                        'posts_per_page'    =>  5, 
+                        'orderby'           =>  'id', 
+                        'order'             =>  'asc', 
+                        'tax_query'         =>  array(
+                                                    array(
+                                                            'taxonomy' => 'interview-questions-category',
+                                                            'field' => 'slug',
+                                                            'terms' => 'wordpress', 
+                                                            'include_children' => false
+                                                    )
+                                                ) 
+                        );  
+                $wpQuestions = get_posts($args); 
+                if ($wpQuestions) {
+                foreach($wpQuestions as $top) {
+                ?>
+                    <li class="list-item"><a href="<?php the_permalink($top->ID); ?>"><i class="fa fa-angle-right text-primary" aria-hidden="true"></i><?php echo $top->post_title; ?></a></li>
+                <?php    
+                }} else { ?>
+                    <li class="list-item text-center">No records found.</li>
+                  <?php 
+                }    
+                ?>
               </ul>
+              <p class="text-center"><a class="btn btn-sm btn-primary btnui3" href="<?php echo site_url('interview-questions-category/react-js/'); ?>">More Questions</a></p>
             </div>
           </div>
         </div>
@@ -616,7 +660,7 @@ get_header();
  	<!-- News and Events Section End -->
   
   <!-- CTA Section -->
- 	<section id="cta-section" class="common-section-ui bg-secondary pb_80 text-center">
+ 	<section id="cta-section" class="common-section-ui bg-dark pb_80 text-center">
     <div class="container">
       <div class="row">
         <div class="col-12">
