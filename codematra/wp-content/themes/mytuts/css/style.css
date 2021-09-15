@@ -6,6 +6,10 @@ body {
 }
 
 
+.card.cui4, .card.cui3, .card.cui3c, .card.cui2c, .card.cui2 {
+    box-shadow: 2px 2px 9px 5px #f5f5f5 !important;
+}
+
 
 /*Sidebar Widget*/
 .card.widget_card {

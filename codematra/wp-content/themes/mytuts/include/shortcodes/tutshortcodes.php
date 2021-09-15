@@ -63,3 +63,44 @@ function code_block_file($atts) {
     }
 		return ob_get_clean();
 } 
+
+/*
+* Shortcode interview questions
+*/
+
+add_shortcode('showPostTerms', 'posts_terms_shortcode');
+function posts_terms_shortcode($atts) {
+
+    extract(shortcode_atts(array(
+      'post_type' => 'interview-questions',
+      'category' => 'wordpress',
+    	'taxonomy' => 'interview-questions-category',
+    ), $atts));
+
+		ob_start();
+
+    $terms = get_terms( array( 
+      'taxonomy' => $taxonomy,
+      'parent'   => 0
+    ) );
+     
+    if($terms) {
+      echo '<div class="row">';
+      foreach($terms as $term) {
+        $termname = $term->name;
+        $termLink = get_term_link($term);
+        ?>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card relative cui2 text-uppercase min_h_200">
+            <div class="cbody">
+              <a class="d-block tdn f20 font_bold text-white overlay_b absolute d-flex flex center_center" href="<?php echo $termLink; ?>"><span><?php echo $termname; ?></span></a>
+            </div>
+          </div>
+        </div>
+        <?php
+      }
+      echo '</div>';
+    }
+
+		return ob_get_clean();
+}
