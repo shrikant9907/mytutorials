@@ -3,14 +3,14 @@ get_header();
 ?>
 
 <!-- Banner UI 1 -->
-<div class="banner-section bg_black text-white mt_0 min_h_400">
-  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/shrikant_yadav_full.jpg" class="op5 overlay_w" />
+<div class="banner-section bg_primary text-white mt_0 min_h_400">
+  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/shrikant_yadav_full.jpg" class="op3 overlay_w" />
   <div class="container">
       <div class="row">
           <div class="col-12">
               <div class="banner-card nobefore">
-                  <p class="pre-banner-heading f18 mb_10 ">Welcome to codematra.com</p>
-                  <h1 class="banner-heading f40 mb_20">Free codes to <span class="text_green">learn</span> and <br />improving your <span class="text_yellow">coding</span> skills.</h1>
+                  <p class="pre-banner-heading f14 text-uppercase mb_10 ">Welcome to codematra.com</p>
+                  <h1 class="banner-heading f30 mb_10">Free codes and Easy tricks, <br />To learn Programming.</h1>
                   <p class="banner-description mb_30">Our website is specially designed to make the code learning easy. <br />We created a step by step process to learn codes.</p>
                   <div class="banner-actions">
                       <a href="#" class="btn btn-primary btnui3s"><i class="fas fa-laptop-code mr_10"></i> Start learning! <i class="fa fa-angle-right ml_10" aria-hidden="true"></i></a>
