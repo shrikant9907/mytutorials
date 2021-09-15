@@ -235,6 +235,59 @@ get_header();
 </div>
 <!-- Recent Posts with Sidebar Ends -->
 
+<!-- Recent Programs with Sidebar Start -->
+<div class="blog-index-page common-section-ui pt_60 pb_40 bg-light">
+	<div class="container">
+		<h3 class="heading_style type2 text-uppercase mb_20">Recent Programs</h3>
+	
+	<div class="row">
+		<div class="col-12">
+			<div class="row">
+        <?php 
+          $args = array(
+                  'post_type'         =>  'programs', 
+                  'posts_per_page'    =>  6, 
+                  'orderby'           =>  'id', 
+                  'order'             =>  'desc', 
+          );  
+          $programsList = get_posts($args); 
+          if ($programsList) {
+          foreach($programsList as $progs) {
+          $progTerms = get_the_terms($progs, 'programs-category');
+          ?>
+          	<div class="col-12 col-sm-6 col-md-4">
+              <div class="card cui2 box_shw3 r_0 relative f14">
+              <span class="badge bg_green text-white absolute r_0 p_5 fixed_top_right"><?php echo $progTerms['0']->name; ?></span>
+              <a href="<?php the_permalink($progs->ID); ?>" class="d-inline-block cimgwr" >
+                <img class="card-img-top r_0" src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder_500x300.jpg" alt="" />
+              </a>
+              <div class="card-body ">
+                <div class="f16 mb_10 cheading font_bold lh20 min_h_40">
+                  <a href="<?php the_permalink($progs->ID); ?>" class="d-inline-block text-dark" >
+                   <?php echo $progs->post_title; ?>
+                  </a>
+                </div>
+                <div class="cmeta text-muted f12 d-flex justify-content-between"><span><i class="fa fa-user mr_5" aria-hidden="true"></i> Shrikant</span> <span><i class="fa fa-calendar mr_5" aria-hidden="true"></i> <?php echo get_the_time('F j, Y'); ?></span></div>
+                <!-- <p class="cdesc mb_0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...</p> -->
+              </div>
+              </div>
+            </div>
+              
+          <?php    
+          }} else { ?>
+              <p >No records found.</p>
+            <?php 
+          }    
+          ?>
+		 	
+    </div>
+		</div>
+ 
+	</div>
+</div>
+</div>
+<!-- Recent Programs with Sidebar Ends -->
+
  <!-- Tutorials  Section -->
  <section id="ourTutorials" class="common-section-ui bg-light f16 pb_20 hide">
    <div class="container">
@@ -528,7 +581,7 @@ get_header();
  <!-- Facts  End -->
 
 
-<section id="interview" class="common-section-ui pb_40 pt_60 bg-light">
+<section id="interview" class="common-section-ui pb_40 pt_60">
   <div class="container">
   <h2 class="heading_style type2 text-uppercase mb_20">Interview Questions</h2>
     <div class="row">

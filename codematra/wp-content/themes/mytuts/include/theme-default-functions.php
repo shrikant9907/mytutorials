@@ -11,6 +11,7 @@ function insertDefaultPages() {
         'Categories',
         'Quizzes',
         'Interview',
+        'Interview Questions',
         'FAQs',
         'MCQ\'s',
         'Sitemap',
