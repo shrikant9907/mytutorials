@@ -44,7 +44,7 @@
 	                <div class="col-6 col-md-3">
                       <h3 class="text-primary f18 lh22 mb_20 text-uppercase">Resources</h3>
                       <ul class="menu">
-                          <li><a href="<?php echo site_url('/sitemap'); ?>">Sitemap</a></li>
+                          <!-- <li><a href="<?php //echo site_url('/sitemap'); ?>">Sitemap</a></li> -->
                           <li><a href="<?php echo site_url('/privacy-policy'); ?>">Privacy Policy</a></li>
                           <li><a href="<?php echo site_url('/terms-and-conditions'); ?>">Terms and Conditions</a></li>
                       </ul>

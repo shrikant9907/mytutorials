@@ -11,16 +11,14 @@
                                     'post_type'         =>  'page',
                                     'posts_per_page'    =>  -1, 
                                     'orderby'           =>  'title', 
-                                    'order'             =>  'asc', 
+                                    'order'             =>  'desc', 
                                 );  
                 query_posts($args);
                 $count = 1;
                 if(have_posts()):
                 ?>
-                <div class="card mb-4 r_0">
-                  <div class="card-header r_0 bg-dark text-white">
-                    <h4 class="card-title m-0 f20 lh22">Pages</h4>
-                  </div>
+                <div class="card cui1 mb_20 r_0 box_shw3 bg-white f14">
+                  <h4 class="heading_style type2 text-uppercase mbi_0 bg-white px_20">Pages</h4>
                   <div class="card-body p-0"> 
                     <ul class='list-group list-group-flush'> 
                         <?php   
@@ -51,10 +49,8 @@
                 $count = 1;
                 if(have_posts()):
                 ?>
-                <div class="card mb-4 r_0">
-                  <div class="card-header r_0 bg-dark text-white">
-                    <h4 class="card-title m-0 f20 lh22">Posts</h4>
-                  </div>
+                <div class="card cui1 mb_20 r_0 box_shw3 bg-white f14">
+                  <h4 class="heading_style type2 text-uppercase mbi_0 bg-white px_20">Posts</h4>
                   <div class="card-body p-0"> 
                     <ul class='list-group list-group-flush'> 
                         <?php   
@@ -86,10 +82,8 @@
                 $count = 1;
                 if(have_posts()):
                 ?>
-                <div class="card mb-4 r_0">
-                  <div class="card-header r_0 bg-dark text-white">
-                    <h4 class="card-title m-0 f20 lh22">Tutorials: HTML and CSS, PHP, Python</h4>
-                  </div>
+                <div class="card cui1 mb_20 r_0 box_shw3 bg-white f14">
+                  <h4 class="heading_style type2 text-uppercase mbi_0 bg-white px_20">Tutorials</h4>
                   <div class="card-body p-0"> 
                     <ul class='list-group list-group-flush'> 
                         <?php   
@@ -123,11 +117,9 @@
                 if(have_posts()):
                 ?>
              <div class="col-12 col-md-6">
-                <div class="card mb-4 r_0">
-                  <div class="card-header r_0 bg-dark text-white">
-                    <h4 class="card-title m-0 f20 lh22">Programs: HTML and CSS, PHP, Python, Bootstrap, Angular and WordPress</h4>
-                  </div>
-                  <div class="card-body p-0"> 
+             <div class="card cui1 mb_20 r_0 box_shw3 bg-white f14">
+                  <h4 class="heading_style type2 text-uppercase mbi_0 bg-white px_20">Programs</h4>
+                    <div class="card-body p-0"> 
                     <ul class='list-group list-group-flush'> 
                         <?php   
                             while(have_posts()): the_post();  

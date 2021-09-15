@@ -106,7 +106,7 @@ get_header();
 <!-- Blog Featured Posts End -->
 
 <!-- Recent Posts with Sidebar Start -->
-<div class="blog-index-page common-section-ui pt_60 pb_40">
+<div class="blog-index-page common-section-ui pt_60 pb_40 hide">
 	<div class="container">
 		<h3 class="heading_style type2 text-uppercase mb_20">Recent Posts</h3>
 	
