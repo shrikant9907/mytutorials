@@ -44,7 +44,7 @@ if ($term_name) {
         ?>
           <div class="card cui2 typography">
             <h3 class="card-header bg-primary mbi_0" role="tab" id="heading<?php the_ID(); ?>">
-              <a href="#aiqui<?php the_ID(); ?>" data-toggle="collapse" data-parent="#accordion2" aria-expanded="true" data-target="#aiqui<?php the_ID(); ?>" aria-controls="aiqui<?php the_ID(); ?>"><span class="card-title"><?php the_title(); ?></span> <i class="fas fa-caret-down"></i> <i class="fas fa-caret-left"></i></a>
+              <a href="#aiqui<?php the_ID(); ?>" data-toggle="collapse" data-parent="#accordion2" aria-expanded="true" data-target="#aiqui<?php the_ID(); ?>" aria-controls="aiqui<?php the_ID(); ?>"><span class="card-title"><?php echo $count .'. '; the_title(); ?></span> <i class="fas fa-caret-down"></i> <i class="fas fa-caret-left"></i></a>
             </h3>
             <div class="card-body collapse pbi_10" id="aiqui<?php the_ID(); ?>" role="tabpanel" aria-labelledby="heading<?php the_ID(); ?>" data-parent="#accordion2">
               <?php the_content(); ?>
@@ -52,6 +52,7 @@ if ($term_name) {
           </div>	
 	    
     <?php
+    $count++;
     endwhile; 
     endif; ?>         
   		  </div>                  
