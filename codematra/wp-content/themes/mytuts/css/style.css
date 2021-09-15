@@ -1,7 +1,6 @@
 body {
-    /* font-family: 'PT Sans', sans-serif; */
     font-family: 'Noto Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
 }
 
@@ -130,11 +129,11 @@ header .full-menu .navbar.navbar-expand-lg .navbar-nav .nav-item .nav-link {
 .btn-outline-primary,
 .ourtutorials .card .ciconrc,
 .text_primary {
-    color: #F34423 !important;
+    color: #117CA6 !important;
 }
 
 a.text-primary:focus, a.text-primary:hover {
-    color: #F34423 !important;
+    color: #117CA6 !important;
 }
 
 .socialicons.bg_dark, .socialicons.bg-dark,
@@ -142,18 +141,18 @@ a.text-primary:focus, a.text-primary:hover {
 .badge-primary,
 .bg_primary,
 .bg-primary {
-    background-color: #F34423 !important;
+    background-color: #117CA6 !important;
 }
 
 .border-primary,
 .btn-primary,
 .ourtutorials .card .ciconrc,
 .heading_style.type2:before {
-    border-color:  #F34423 !important;
+    border-color:  #117CA6 !important;
 }
 
 .btn-primary:hover {
-    background: #F34423 !important;
+    background: #117CA6 !important;
 }
 
 .ourtutorials .card .ciconrc {
@@ -342,7 +341,7 @@ header .navbar.navbar-expand-lg .navbar-nav .nav-item .nav-link {
 }
 
 .slick-prev:before, .slick-next:before {
-    color: #F34423 !important;
+    color: #117CA6 !important;
     font-size: 30px;
 }
 
