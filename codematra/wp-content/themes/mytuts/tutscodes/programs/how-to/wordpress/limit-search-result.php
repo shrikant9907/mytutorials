@@ -1,6 +1,6 @@
 <?php
 /*
-* Code to limit the search result to specified post types | Site - allprograms.tech
+* Code to limit the search result to specified post types | Site - codematra.com
 */
 add_filter('pre_get_posts','searchfilter');
 function searchfilter($query) {

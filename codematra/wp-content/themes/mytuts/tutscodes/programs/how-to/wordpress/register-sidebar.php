@@ -1,6 +1,6 @@
 <?php
 /* 
-* Code to register a sidebar | Site - allprograms.tech 
+* Code to register a sidebar | Site - codematra.com 
 */
 add_action( 'widgets_init', 'add_custom_sidebars',10, 0 ); 
 function add_custom_sidebars() { 

@@ -2,8 +2,8 @@
  /*
   * Interview Questions Post Type
   */ 
-add_action('init','istl_interview_questions_post_type');
-function istl_interview_questions_post_type() {
+add_action('init','cm_interview_questions_post_type');
+function cm_interview_questions_post_type() {
    
    // Labels
 	$labels = array(
@@ -35,8 +35,8 @@ function istl_interview_questions_post_type() {
 /**
  * Interview Questions Category Taxonomy
  */
-add_action( 'init', 'istl_interview_questions_taxonomy', 0 );
-function istl_interview_questions_taxonomy() {  
+add_action( 'init', 'cm_interview_questions_taxonomy', 0 );
+function cm_interview_questions_taxonomy() {  
 	
 	// Labels
 	$singular = 'Category';
@@ -70,8 +70,8 @@ function istl_interview_questions_taxonomy() {
 /*
  * Save Interview Questions Meta Fields Value
  */
-//add_action( 'save_post', 'istl_interview_questions_save_meta_box' );
-function istl_interview_questions_save_meta_box($post_id){   
+//add_action( 'save_post', 'cm_interview_questions_save_meta_box' );
+function cm_interview_questions_save_meta_box($post_id){   
  
     if( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
     if( !current_user_can( 'edit_post' ) ) return;
@@ -91,7 +91,7 @@ function istl_interview_questions_save_meta_box($post_id){
  * Get Interview Questions Details 
  * Return Array
  */
-function istl_get_interview_questions_details($post_id) {   
+function cm_get_interview_questions_details($post_id) {   
     
     $output = array();
     $output['interview_questions_title'] = get_the_title($post_id); 

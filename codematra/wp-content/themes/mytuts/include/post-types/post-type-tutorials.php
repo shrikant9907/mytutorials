@@ -176,7 +176,7 @@ function tutorials_save_meta_box($post_id){
  * Get Tutorial Details 
  * Return Array
  */
-function istl_get_tutorial_details($post_id) {   
+function cm_get_tutorial_details($post_id) {   
     
     $output = array();
     $output['tutorial_title'] = get_the_title($post_id); 

@@ -129,13 +129,13 @@ add_action( 'widgets_init', 'custom_codematra_widgets_init',10, 0 );
  /*
   * Related Posts Function
   */
-function istl_related_posts() {
+function cm_related_posts() {
     
     $categories = get_the_category();
 
     if ( $categories ) { ?>
 
-        <div class="istl-related-posts">
+        <div class="cm-related-posts">
             <h2><?php _e( 'Related Posts', 'hitmag' ); ?></h2>
                 <div class="form-row">
                     <?php
@@ -153,16 +153,16 @@ function istl_related_posts() {
                         while ($related_posts->have_posts()) : $related_posts->the_post(); ?>
 
                             <div class="col-sm-6">
-                                <div class="istl_related_post">
+                                <div class="cm_related_post">
                                     <a class="img_thum_wr" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
                                         <?php the_post_thumbnail('medium'); ?> 
                                     </a>
-                                    <h3 class="istl_related_post-title">
+                                    <h3 class="cm_related_post-title">
                                         <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
                                             <?php the_title(); ?>
                                         </a>
                                     </h3>
-                                    <p class="istl_related_post_text"><?php echo wp_trim_words(get_the_content(), 20); ?></p>
+                                    <p class="cm_related_post_text"><?php echo wp_trim_words(get_the_content(), 20); ?></p>
                                     <!--<p class="hms-meta"><?php //echo hitmag_posted_datetime() ?></p>--> 
                                 </div>
                             </div>
@@ -185,7 +185,7 @@ function istl_related_posts() {
 /*
   * Related Posts Function
   */
-function istl_related_custom_posts($taxonomy = 'tutorial_cat', $post_id = '') {
+function cm_related_custom_posts($taxonomy = 'tutorial_cat', $post_id = '') {
     
     if($post_id=='') {
         $post_id = get_the_ID(); 
@@ -195,7 +195,7 @@ function istl_related_custom_posts($taxonomy = 'tutorial_cat', $post_id = '') {
  
     if ( $categories ) { ?>
 
-        <div class="istl-related-posts">
+        <div class="cm-related-posts">
             <h2><?php _e( 'Related Posts', 'hitmag' ); ?></h2>
                 <div class="row">
                     <?php
@@ -224,16 +224,16 @@ function istl_related_custom_posts($taxonomy = 'tutorial_cat', $post_id = '') {
                         while ($related_posts->have_posts()) : $related_posts->the_post(); ?>
 
                             <div class="col-sm-6">
-                                <div class="istl_related_post">
+                                <div class="cm_related_post">
                                     <a class="img_thum_wr" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
                                         <?php the_post_thumbnail('medium'); ?> 
                                     </a>
-                                    <h3 class="istl_related_post-title">
+                                    <h3 class="cm_related_post-title">
                                         <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
                                             <?php the_title(); ?>
                                         </a>
                                     </h3>
-                                    <p class="istl_related_post_text"><?php echo wp_trim_words(get_the_content(), 20); ?></p>
+                                    <p class="cm_related_post_text"><?php echo wp_trim_words(get_the_content(), 20); ?></p>
                                     <!--<p class="hms-meta"><?php //echo hitmag_posted_datetime() ?></p>--> 
                                 </div>
                             </div>
@@ -282,7 +282,7 @@ add_filter('pre_get_posts','searchfilter');
 /*
  * Sy Pagination
  */
-function sy_wp_pagination() {
+function theme_pagination() {
 global $wp_query;
 $big = 999999999999;
 $page_format = paginate_links( array(
@@ -352,9 +352,9 @@ function activated($v1, $v2) {
 
   
 /*
- * istl_theme_entry_meta
+ * cm_theme_entry_meta
  */
-function istl_theme_entry_meta() {
+function cm_theme_entry_meta() {
     
     // Translators: used between list items, there is a space after the comma.
         $categories = get_the_category_list( __( ', ', 'codematra' ) );

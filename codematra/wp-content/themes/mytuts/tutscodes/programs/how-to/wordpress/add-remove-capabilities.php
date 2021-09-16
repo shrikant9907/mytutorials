@@ -1,6 +1,6 @@
 <?php
 /* 
-* Code for add or remove users capabilites | Site - allprograms.tech
+* Code for add or remove users capabilites | Site - codematra.com
 */
 add_action('admin_init', 'apt_user_capabilities');
 function apt_user_capabilities() {

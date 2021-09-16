@@ -68,18 +68,36 @@
                 <li class="nav-item">
                   <a class="nav-link text-dark" href="<?php echo site_url('/'); ?>">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark" href="<?php echo site_url('/categories'); ?>">Categories</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-dark dropdown-toggle" href="javascript:void('0');">Categories</a>
+                  <div class="dropdown-menu"> 
+                    <!-- <a class="dropdown-item" href="<?php echo site_url('/programs-category/html/'); ?>">HTML</a> -->
+                    <!-- <a class="dropdown-item" href="<?php echo site_url('/programs-category/css/'); ?>">CSS</a> -->
+                    <!-- <a class="dropdown-item" href="<?php echo site_url('/programs-category/bootstrap/'); ?>">Bootstrap</a> -->
+                    <!-- <a class="dropdown-item" href="<?php echo site_url('/programs-category/jquery/'); ?>">jQuery</a> -->
+                    <!-- <a class="dropdown-item" href="<?php echo site_url('/programs-category/javascript/'); ?>">JavaScript</a> -->
+                    <!-- <a class="dropdown-item" href="<?php echo site_url('/programs-category/react-js/'); ?>">React JS</a> -->
+                    <!-- <a class="dropdown-item" href="<?php echo site_url('/programs-category/angular/'); ?>">Angular</a> -->
+                    <a class="dropdown-item" href="<?php echo site_url('/programs/simple-php-program-for-hello-world/'); ?>">PHP</a>
+                    <!-- <a class="dropdown-item" href="<?php echo site_url('/programs-category/wordpress/'); ?>">WordPress</a> -->
+                    <!-- <a class="dropdown-item" href="<?php echo site_url('/programs-category/python/'); ?>">Python</a> -->
+                    <!-- <a class="dropdown-item" href="<?php echo site_url('/programs-category/django/'); ?>">Django</a> -->
+                  </div>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link text-dark" href="<?php echo site_url('/quizzes'); ?>">Quizzes</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-dark dropdown-toggle" href="<?php echo site_url('/interview'); ?>">Interview</a>
+                  <div class="dropdown-menu"> 
+                    <a class="dropdown-item" href="<?php echo site_url('/interview-questions-category/react-js/'); ?>">React Js</a>
+                    <a class="dropdown-item" href="<?php echo site_url('/interview-questions-category/wordpress/'); ?>">WordPress</a>
+
+                  </div>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark" href="<?php echo site_url('/interview'); ?>">Interview</a>
-                </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link text-dark" href="<?php echo site_url('/blog'); ?>">Blog</a>
-                </li>
+                </li> -->
                 <li class="nav-item nav-item d-flex justify-content-center align-items-center">
                   <a href="<?php echo site_url('/?s='); ?>" class="search-trigger"><i class="fa fa-search text_primary ml_10" aria-hidden="true"></i></a>
                 </li>
@@ -93,7 +111,7 @@
         </div>
       </div>
     </div>
-    <div class="full-menu bg-dark hide-sm">
+    <div class="full-menu bg-dark hide-sm hide">
       <div class="container">
         <div class="row">
           <div class="col-12">

@@ -1,6 +1,6 @@
 <?php
 /*
-* Function to save in localstorage in PHP | Site - allprograms.tech
+* Function to save in localstorage in PHP | Site - codematra.com
 */
 function saveToLocalStorage($key, $value) {
 	?>

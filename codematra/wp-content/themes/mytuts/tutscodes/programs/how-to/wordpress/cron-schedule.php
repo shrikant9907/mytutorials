@@ -1,6 +1,6 @@
 <?php 
 /* 
-* Create a cron schedule or interval | Site - allprograms.tech
+* Create a cron schedule or interval | Site - codematra.com
 */
 add_filter( 'cron_schedules', 'cronSchedules2Hours' );
 function cronSchedules2Hours( $schedules ) {

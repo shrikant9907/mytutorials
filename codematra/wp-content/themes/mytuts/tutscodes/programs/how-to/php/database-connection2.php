@@ -1,6 +1,6 @@
 <?php 
 /*
- * Create a connection with server | Site - allprograms.tech
+ * Create a connection with server | Site - codematra.com
  */
 
 global $connection; 

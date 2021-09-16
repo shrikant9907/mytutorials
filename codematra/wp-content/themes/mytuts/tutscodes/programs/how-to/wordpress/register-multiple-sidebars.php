@@ -1,7 +1,7 @@
 <?php
 
 /* 
-* Code to register multiple sidebars in WordPress | Site - allprograms.tech 
+* Code to register multiple sidebars in WordPress | Site - codematra.com 
 */
 add_action( 'widgets_init', 'add_custom_sidebars',10, 0 ); 
 function add_custom_sidebars() { 

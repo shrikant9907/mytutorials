@@ -1,6 +1,6 @@
 <?php
 /* 
-* Code for Add / Remove User role in WordPress | Site - allprograms.tech
+* Code for Add / Remove User role in WordPress | Site - codematra.com
 */
 add_action('init','add_new_user_roles');
 function add_new_user_roles() {

@@ -1,6 +1,6 @@
 <?php
 /* 
-* cURL GET reponse from URL | Site - allprograms.tech
+* cURL GET reponse from URL | Site - codematra.com
 */
 
 // API Url

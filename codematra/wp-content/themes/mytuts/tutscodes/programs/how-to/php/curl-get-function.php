@@ -1,6 +1,6 @@
 <?php
 /* 
-* cURL GET reponse from URL function | Site - allprograms.tech
+* cURL GET reponse from URL function | Site - codematra.com
 */
 $url = 'http://www.example.com/api/get-posts.php'; 
 function getResponseCurl($url, $returnTransfer = true) {

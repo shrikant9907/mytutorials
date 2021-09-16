@@ -108,7 +108,7 @@ $term_name = $term_obj_list['0']->name;
                                         <img src='<?php echo $image; ?>' alt='<?php the_title(); ?>' />
                                     </div> 
                                 <?php } ?>
-                                <!-- <div class='mb-2'><?php //istl_theme_entry_meta(); ?></div> -->
+                                <!-- <div class='mb-2'><?php //cm_theme_entry_meta(); ?></div> -->
                    
                                 <div class="article-content">
                                     <?php the_content(); ?>
@@ -231,7 +231,7 @@ $term_name = $term_obj_list['0']->name;
                     </div> 
                 
                 <!--Related Posts-->
-                <?php istl_related_posts(); ?>
+                <?php cm_related_posts(); ?>
                 
                 <?php comment_form(); ?>
 

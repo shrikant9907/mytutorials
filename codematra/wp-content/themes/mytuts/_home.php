@@ -100,7 +100,7 @@
                          
                     <?php 
                         endwhile; 
-                        sy_wp_pagination();
+                        theme_pagination();
                         endif; 
                     ?>      
             

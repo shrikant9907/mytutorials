@@ -1,8 +1,8 @@
 <?php
 /*
-* Code to upload a file | Site - allprograms.tech 
+* Code to upload a file | Site - codematra.com 
 */
-function istl_upload_file_php($file) {
+function cm_upload_file_php($file) {
   $output = array();
   if($file) { 
     $errors= array();

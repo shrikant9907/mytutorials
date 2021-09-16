@@ -1,6 +1,6 @@
 <?php
 /*
-* Code to redirect using javascript | Site - allprograms.tech
+* Code to redirect using javascript | Site - codematra.com
 */
 function javascript_redirect($url) { 
 	?> 

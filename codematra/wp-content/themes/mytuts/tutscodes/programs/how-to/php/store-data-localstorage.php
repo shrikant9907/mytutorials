@@ -1,6 +1,6 @@
 <?php
 /* 
-* Store date in localstorage in PHP | Site - allprograms.tech
+* Store date in localstorage in PHP | Site - codematra.com
 */
 
 // Suppose we need to store a referral code in localstore

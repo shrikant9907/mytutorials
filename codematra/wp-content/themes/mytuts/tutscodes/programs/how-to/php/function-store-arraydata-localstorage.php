@@ -1,6 +1,6 @@
 <?php
 /*
-* Function to save the array values in localstorage in PHP | Site - allprograms.tech
+* Function to save the array values in localstorage in PHP | Site - codematra.com
 */
 function saveArrayToLocalStorage($items) {
 	if ($items && is_array($items)) {

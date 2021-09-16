@@ -1,6 +1,6 @@
 <?php 
 /*
-* Add shortcode for anchor link in WordPress  | Site - allprograms.tech
+* Add shortcode for anchor link in WordPress  | Site - codematra.com
 */
 // [AnchorLink href=’#test’ label=’Click Here’ class=’btn’]
 add_shortcode('AnchorLink', 'addAnchorFunction');

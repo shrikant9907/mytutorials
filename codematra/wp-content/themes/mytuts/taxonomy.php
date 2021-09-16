@@ -24,7 +24,7 @@ if ($term_name) {
                             'post_type'         =>  $post_type,
                             'posts_per_page'    =>  5, 
                             'orderby'           =>  'date', 
-                            'order'             =>  'asc', 
+                            'order'             =>  'desc', 
                             'tax_query'         =>  array(
                                                         array(
                                                                 'taxonomy' => $term_taxonomy,
@@ -58,6 +58,7 @@ if ($term_name) {
         </div>     
     <?php
     endwhile; 
+    theme_pagination();
     endif; ?>         
                     
       </div>

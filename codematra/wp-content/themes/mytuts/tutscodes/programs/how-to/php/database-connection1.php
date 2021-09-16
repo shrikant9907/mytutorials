@@ -1,6 +1,6 @@
 <?php 
 /*
-* Required Variable for database connection | Site - allprograms.tech
+* Required Variable for database connection | Site - codematra.com
 */
 
 // Hostname (For the localserver using localhost)

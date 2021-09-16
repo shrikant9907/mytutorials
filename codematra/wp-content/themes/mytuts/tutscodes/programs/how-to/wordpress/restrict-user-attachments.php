@@ -1,6 +1,6 @@
 <?php
 /*
-* Code to restrict users to access others users files | Site - allprograms.tech
+* Code to restrict users to access others users files | Site - codematra.com
 */
 add_action('pre_get_posts','restrict_users_to_own_attachment');
 function restrict_users_to_own_attachment( $wp_query_obj ) {

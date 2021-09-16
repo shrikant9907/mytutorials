@@ -1,6 +1,6 @@
 <?php
 /*
-* Code to add stylesheet and script files in WordPress dashboard | Site: allprograms.tech
+* Code to add stylesheet and script files in WordPress dashboard | Site: codematra.com
 */
 add_action( 'admin_enqueue_scripts', 'admin_styles_scripts' );
 function admin_styles_scripts() {

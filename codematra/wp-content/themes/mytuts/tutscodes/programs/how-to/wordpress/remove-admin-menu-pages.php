@@ -1,6 +1,6 @@
 <?php
 /*
-* Remove admin menu pages in WordPress  | Site - allprograms.tech
+* Remove admin menu pages in WordPress  | Site - codematra.com
 */
 add_action('admin_menu', 'remove_admin_menus');
 function remove_admin_menus() { 

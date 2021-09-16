@@ -1,6 +1,6 @@
 <?php 
 /*
-* Connect with Database | Site - allprograms.tech
+* Connect with Database | Site - codematra.com
 */
 
 $database = mysqli_select_db($connection, $databasename);  

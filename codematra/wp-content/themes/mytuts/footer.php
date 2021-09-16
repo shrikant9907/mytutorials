@@ -20,22 +20,22 @@
 	               	<div class="col-6 col-md-3">
                     <h3 class="text-primary f18 lh22 mb_20 text-uppercase">Learn Codes</h3>
                     <ul class="menu">
-                      <li><a href="<?php echo site_url('/wordpress'); ?>">WordPress</a></li>
-                      <li><a href="<?php echo site_url('/angular'); ?>">Angular</a></li>
-                      <li><a href="<?php echo site_url('/bootstrap'); ?>">Bootstrap</a></li>
-                      <li><a href="<?php echo site_url('/html-and-css'); ?>">HTML and CSS</a></li>
-                      <li><a href="<?php echo site_url('/php-programming'); ?>">PHP Programming</a></li>
-                      <li><a href="<?php echo site_url('/python-programming'); ?>">Python Programming</a></li>
+                      <!-- <li><a href="<?php echo site_url('/wordpress'); ?>">WordPress</a></li> -->
+                      <!-- <li><a href="<?php echo site_url('/angular'); ?>">Angular</a></li> -->
+                      <!-- <li><a href="<?php echo site_url('/bootstrap'); ?>">Bootstrap</a></li> -->
+                      <!-- <li><a href="<?php echo site_url('/html-and-css'); ?>">HTML and CSS</a></li> -->
+                      <li><a href="<?php echo site_url('/programs/simple-php-program-for-hello-world/'); ?>">PHP Programming</a></li>
+                      <!-- <li><a href="<?php echo site_url('/python-programming'); ?>">Python Programming</a></li> -->
                     </ul>
 	                </div>
 	                <div class="col-6 col-md-3">
                       <h3 class="text-primary f18 lh22 mb_20 text-uppercase">Knowledge</h3>
                       <ul class="menu">
-                          <li><a href="<?php echo site_url('/blog'); ?>">Blog</a></li>
-                          <li><a href="<?php echo site_url('/mcqs'); ?>">MCQ's</a></li>
-                          <li><a href="<?php echo site_url('/quizzes'); ?>">Test Quizzes</a></li>
-                          <li><a href="<?php echo site_url('/interview-questions'); ?>">Interview Questions</a></li>
-                          <li><a href="<?php echo site_url('/tools'); ?>">Tools</a></li>
+                          <!-- <li><a href="<?php echo site_url('/blog'); ?>">Blog</a></li> -->
+                          <!-- <li><a href="<?php echo site_url('/mcqs'); ?>">MCQ's</a></li> -->
+                          <!-- <li><a href="<?php echo site_url('/quizzes'); ?>">Test Quizzes</a></li> -->
+                          <li><a href="<?php echo site_url('/interview'); ?>">Interview Questions</a></li>
+                          <!-- <li><a href="<?php echo site_url('/tools'); ?>">Tools</a></li> -->
                           <!-- <li><a href="#">Support</a></li> -->
                           <!-- <li><a href="#">Request a quote</a></li> -->
                           <!-- <li><a href="#">Hire a developer</a></li> -->

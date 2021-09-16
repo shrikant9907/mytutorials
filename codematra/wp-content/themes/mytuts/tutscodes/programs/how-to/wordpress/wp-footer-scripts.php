@@ -1,6 +1,6 @@
 <?php
 /*
-* Add Scripts and Localize Script in WP Footer | Site - allprograms.tech
+* Add Scripts and Localize Script in WP Footer | Site - codematra.com
 */
 add_action('wp_footer','add_scripts_in_footer');
 function add_scripts_in_footer() {   

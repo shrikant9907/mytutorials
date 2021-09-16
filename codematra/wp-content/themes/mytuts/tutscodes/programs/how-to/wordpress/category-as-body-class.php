@@ -1,6 +1,6 @@
 <?php
 /* 
-* Add category name as the body class for posts in WordPress | Site - allprograms.tech
+* Add category name as the body class for posts in WordPress | Site - codematra.com
 */
 add_filter('body_class','addCategoryAsBodyClass');
 function addCategoryAsBodyClass($classes) {

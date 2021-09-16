@@ -1,6 +1,6 @@
 <?php
 /*
-* Code to insert pages in WordPress | Site - allprograms.tech 
+* Code to insert pages in WordPress | Site - codematra.com 
 */
 
 	// Array of page titles

@@ -1,6 +1,6 @@
 <?php 
 /*
-* Create a database if not exists | Site - allprograms.tech
+* Create a database if not exists | Site - codematra.com
 */
 
 $sql = "CREATE DATABASE IF NOT EXISTS $databasename"; 

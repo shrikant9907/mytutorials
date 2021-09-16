@@ -43,28 +43,12 @@
               </div>                        
               <?php 
                 endwhile; 
-                // sy_wp_pagination();
+                theme_pagination();
                 endif; 
               ?>   
             </div>
             <div class="col-12 col-sm-6 col-md-4">
                 <?php get_sidebar(); ?>
-                <div class="card cui2 noshadow r_0 w-100 typography hide">
-                  <h3 class='text-primary card-header mb-0'>Recent Posts</h3>
-                  <div class="card-body px-0 pt-0">
-                      <ul class="listing licons">
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                        <li class="list-item"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        Lorem, ipsum dolor sit amet consecteturae!</a></li>
-                      </ul>
-                     <!-- <a class="btn btn-primary btn-sm  btnui1 w-100 text-white">View Code <i class="ml_5 fas fa-angle-double-right    "></i></a> -->
-                  </div>
-                </div>
             </div>
         </div>
     </div>
