@@ -653,8 +653,8 @@ get_header();
                 }    
                 ?>
               </ul>
-              <p class="text-center"><a class="btn btn-sm btn-primary btnui3" href="<?php echo site_url('interview-questions-category/react-js/'); ?>">More Questions</a></p>
             </div>
+            <p class="text-center"><a class="btn btn-sm btn-primary btnui3" href="<?php echo site_url('interview-questions-category/wordpress/'); ?>">More Questions</a></p>
           </div>
         </div>
     </div>
