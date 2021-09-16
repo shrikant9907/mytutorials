@@ -258,9 +258,16 @@ get_header();
           	<div class="col-12 col-sm-6 col-md-4">
               <div class="card cui2 box_shw3 r_0 relative f14">
               <span class="badge bg_green text-white absolute r_0 p_5 fixed_top_right"><?php echo $progTerms['0']->name; ?></span>
+              <?php $image = wp_get_attachment_url(get_post_thumbnail_id($progs->ID)) ;  ?>
+              <?php if(has_post_thumbnail($progs->ID)) { ?>
+              <a href="<?php the_permalink($progs->ID); ?>" class="d-inline-block cimgwr" >
+                <img class="card-img-top r_0 border" src="<?php echo $image; ?>" alt="<?php the_title(); ?>" />
+              </a>
+              <?php } else { ?>
               <a href="<?php the_permalink($progs->ID); ?>" class="d-inline-block cimgwr" >
                 <img class="card-img-top r_0" src="<?php echo get_stylesheet_directory_uri(); ?>/images/placeholder_500x300.jpg" alt="" />
               </a>
+              <?php } ?>
               <div class="card-body ">
                 <div class="f16 mb_10 cheading font_bold lh20 min_h_40">
                   <a href="<?php the_permalink($progs->ID); ?>" class="d-inline-block text-dark" >

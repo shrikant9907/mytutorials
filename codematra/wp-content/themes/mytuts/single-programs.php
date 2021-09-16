@@ -25,13 +25,18 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
       </div>
     
       <div class="col-12 col-sm-6 col-md-8">
+      <?php  
+          if(have_posts()): 
+              while(have_posts()): the_post();  
+      ?>
         <div class="card cui2 noshadow r_0 w-100 typography">
           <div class="card-body pri_30 pli_30 pbi_30">
             <h1 class='text-primary'><?php the_title(); ?></h1>
+              <?php $image = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())) ;  ?>
               <?php if(has_post_thumbnail()) { ?>
-                <a href="#" class="d-inline-block hidei"><img class="card-img-top r_0" src="<?php echo $image; ?>" alt="<?php the_title(); ?>" /></a>
+                <img class="card-img-top r_0 border mb_20" src="<?php echo $image; ?>" alt="<?php the_title(); ?>" />
               <?php } else { ?>
-                <a href="#" class="d-inline-block hidei"><img class="card-img-top r_0" src="https://picsum.photos/300/150" alt=""></a>
+                <img class="card-img-top r_0 border mb_20" src="https://picsum.photos/300/150" alt="" />
               <?php } ?>
             <div class="text-dark px_5 py_5 mb_10 f14 d-flex justify-content-between">
               <span><i class="fa fa-user mr_5 text-primary" aria-hidden="true"></i> <?php the_author_meta('user_nicename',$post->post_author); ?></span>
@@ -57,7 +62,10 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
           </div>
           </div>
         </div>      
-
+        <?php  
+                            endwhile; 
+                            endif; 
+                      ?>  
         <div class="single_posts_nav d-flex justify-content-between">
             <?php
             $prev_post = get_previous_post();
